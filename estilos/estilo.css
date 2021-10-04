@@ -43,4 +43,10 @@ body {
 
   video{
     width: 100%;
+    height: auto;
+  }
+  
+  image{
+    width: 100%;
+    height: auto;
   }

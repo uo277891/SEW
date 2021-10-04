@@ -6,6 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="keywords" content="HTML, Tim Bersenrs-Lee, HTTP, WWW" />
     <meta name="author" content= "Hugo Gutierrez Tomas" />
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
     <title>Tim Berners-Lee, encuesta</title>
 	<link rel="stylesheet" type="text/css" href="estilos/estilo.css" />
 </head>
@@ -72,13 +73,11 @@
       value="WWW">Ser considerado como el padre de WWW<br>
       <input type="checkbox" 
       value="HTTPyHTML">Crear el protocolo HTTP y el lenguaje HTML<br>
-      <p> 
-        Deje un pequeño comentario sobre la página web: contenido adecuado,
-        en que podría mejorar...
-      </p>
+      <label for = "tx">Comentario sobre la página Web:</label><br>
       
-      <textarea cols="15" rows="6" ></textarea><br>
-      <button value="Enviar formulario">Enviar formulario</button><br>
+      <textarea id = "tx" cols="15" rows="6" ></textarea><br>
+      <!--<button value="Enviar formulario">Enviar formulario</button><br>-->
+      <input type="submit" value="Enviar formulario" >
       </form>
 </body>
 </html>
