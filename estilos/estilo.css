@@ -25,7 +25,7 @@ body {
     text-align: left;     
     }
   
-  /*Lista*/
+  /*Lista
   ul { list-style: circle outside; }
   /*Tabla*/
   table { 
@@ -39,4 +39,4 @@ body {
     border-collapse: collapse; border-spacing: 40px;
   }
 
-  tr, td, th{ border: 1px solid rgb(255, 247, 247);}
+  tr, td, th{ border: 1px solid rgb(255, 247, 247);}*/
