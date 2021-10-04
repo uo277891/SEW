@@ -40,3 +40,7 @@ body {
   }
 
   tr, td, th{ border: 1px solid rgb(255, 247, 247);}*/
+
+  video{
+    width: 100%;
+  }
