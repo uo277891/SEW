@@ -8,21 +8,17 @@ body {
   h1 {
     color: #000;    
     background-color:#8fc9e4; 
-    text-transform: uppercase;
-    padding: 2em; 
-    text-align: center;     
+    padding: 2em;   
     }
   h2 {
     color: rgb(14, 2, 32);  
-    text-transform: uppercase;
-    padding: 2em; 
-    text-align: left;     
+    padding: 2em;
+    background-color: rgb(247, 225, 225);  
     }
   h3 {
     color: rgb(15, 32, 2);  
-    text-transform: uppercase;
-    padding: 2em; 
-    text-align: left;     
+    padding: 2em;
+    background-color: rgb(247, 225, 225); 
     }
   
   /*Lista*/
@@ -45,7 +41,7 @@ body {
     width: 100%;
     height: auto;
   }
-  
+
   image{
     width: 100%;
     height: auto;
