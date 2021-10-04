@@ -7,17 +7,14 @@ body {
   /*Especificidad: 001*/
   h1 {
     color: #000;    
-    background-color:#8fc9e4; 
-    padding: 2em;   
+    background-color:#8fc9e4;    
     }
   h2 {
     color: rgb(14, 2, 32);  
-    padding: 2em;
     background-color: rgb(247, 225, 225);  
     }
   h3 {
     color: rgb(15, 32, 2);  
-    padding: 2em;
     background-color: rgb(247, 225, 225); 
     }
   
