@@ -25,9 +25,9 @@ body {
     text-align: left;     
     }
   
-  /*Lista
+  /*Lista*/
   ul { list-style: circle outside; }
-  /*Tabla*/
+  /*Tabla
   table { 
     font-family: 'Times New Roman', Times, serif;
     color:rgb(255, 255, 255);
