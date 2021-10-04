@@ -12,6 +12,17 @@
 
 <body>
     <!-- Datos con el contenidos que aparece en el navegador -->
+    <nav>
+      <a title = "Biografía" 
+        tabIndex = "1" accessKey = "B" 
+        href="index.html"> Biografía</a>
+      <a title = "Aportaciones" 
+        tabIndex = "2" accessKey = "A" 
+        href="aportaciones.html"> Aportaciones</a>
+        <a title = "Libro y Reconocimientos" 
+        tabIndex = "2" accessKey = "L" 
+        href="librosYReconocimientos.html"> Libros y Reconocimientos</a>
+    </nav>
     <h1>Tim Berners-Lee</h1>
     <h2>Encuesta sobre él:</h2>
     <p>
@@ -21,32 +32,40 @@
 
     <form name="Datos y preguntas">
       <label>Datos Personales:</label><br>
-      <input type="text" >Nombre<br>
-      <p> 
+      <p>
+        Nombre:
+      </p>
 
-      </p>
-      <input type="text" >Apellido<br>
+      <input type="text" ><br>
       <p> 
-        
+        Apellido:
       </p>
-      <input type="email" >Correo Electrónico para mandar información sobre Tim Berners-Lee (opcional)<br>
+  
+      <input type="text" ><br>
       <p> 
-        
+        Correo Electrónico para recibir información sobre la página web:
       </p>
-      <input type="date">Fecha de nacimiento<br>
+
+      <input name = "Nombre" type="email" ><br>
+      <p> 
+        Fecha de nacimiento:
+      </p>
+      <input type="date"><br>
       <p> 
         
       </p>
       <label>Preguntas sobre el autor y la página:</label><br>
-      <input type="number">Número de Libros o artículos leídos de Tim Berners-Lee<br>
-      <p> 
-        
+      <p>
+        Número de Libros o artículos leídos de Tim Berners-Lee:
       </p>
-      <input type="text" >¿Qué le hizo entrar en esta página para conocer más sobre él?<br>
+      <input type="number"><br>
       <p> 
-        
+        ¿Qué le hizo entrar en esta página para conocer más sobre él?
       </p>
-      <label>¿Cuál cree que fueron sus mejores aportaciones?</label><br>
+      <input type="text" ><br>
+      <p> 
+        ¿Cuál cree que fueron sus mejores aportaciones?
+      </p>
       <input type="checkbox" value="W3C" 
       checked>Fundar el consorcio internacional de la WWW (W3C)<br>
       <input type="checkbox" 
@@ -54,14 +73,12 @@
       <input type="checkbox" 
       value="HTTPyHTML">Crear el protocolo HTTP y el lenguaje HTML<br>
       <p> 
-        
-      </p>
-      <label>Deje un pequeño comentario sobre la página web: si le ha servido de ayuda,
+        Deje un pequeño comentario sobre la página web: contenido adecuado,
         en que podría mejorar...
-      </label><br>
-      <textarea cols="15" rows="6" ></textarea>
-      <input type="button" 
-      value="Enviar formulario">
+      </p>
+      
+      <textarea cols="15" rows="6" ></textarea><br>
+      <button value="Enviar formulario">Enviar formulario</button><br>
       </form>
 </body>
 </html>
