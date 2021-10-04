@@ -7,7 +7,9 @@ body {
   /*Especificidad: 001*/
   h1 {
     color: #000;    
-    background-color:#8fc9e4;    
+    background-color:#8fc9e4;
+    width: 100%;
+    height: auto;
     }
   h2 {
     color: rgb(14, 2, 32);  
