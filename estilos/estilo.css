@@ -33,40 +33,10 @@ body {
     color:rgb(255, 255, 255);
     background-color:#042b3d; 
     caption-side: top;
-    table-layout: fixed; width: 100%;
+    table-layout: fixed; 
+    width: 100%;
+    padding: 0.7cm ;
     border-collapse: collapse; border-spacing: 40px;
   }
 
   tr, td, th{ border: 1px solid rgb(255, 247, 247);}
-
-  /*Encuesta*/
-  form{
-    padding: 60px;
-    max-width: 400px;
-    background-color: #E7E7E7;
-    
-  }
-  
-  form input,  form textarea {
-    margin-bottom: 15px;
-    font-family: "Roboto", sans-serif;
-    padding: 10px;
-    color: rgb(32, 11, 11); 
-    font-size: 0.5cm;
-    resize: horizontal;
-  }
-  
-  form button {
-    background-color: rgb(44, 2, 2);
-    padding: 10px 45px 10px 45px;
-    font-size: 1em; 
-    color: 	white;
-    font-family: "Roboto", sans-serif;
-  }
-
-  form label{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(44, 2, 2);
-    font-size: 0.7cm;
-    font-style: italic;
-  }
