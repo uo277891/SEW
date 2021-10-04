@@ -35,7 +35,7 @@ body {
     caption-side: top;
     table-layout: fixed; 
     width: 100%;
-    padding: 0.7cm ;
+    font-size: large;
     border-collapse: collapse; border-spacing: 40px;
   }
 
