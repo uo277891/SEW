@@ -4,11 +4,10 @@
 <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
-    <meta name="keywords" content="Tim Bersenrs-Lee" />
+    <meta name="keywords" content="HTML, Tim Bersenrs-Lee, HTTP, WWW" />
     <meta name="author" content= "Hugo Gutierrez Tomas" />
-    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
     <title>Tim Berners-Lee, encuesta</title>
-	<link rel="stylesheet" type="text/css" href="estilos/estiloEncuesta.css" />
+	<link rel="stylesheet" type="text/css" href="estilos/estilo.css" />
 </head>
 
 <body>
@@ -24,48 +23,62 @@
         tabIndex = "2" accessKey = "L" 
         href="librosYReconocimientos.html"> Libros y Reconocimientos</a>
     </nav>
-    <h1>Tim Berners-Lee, encuesta sobre él:</h1>
+    <h1>Tim Berners-Lee</h1>
+    <h2>Encuesta sobre él:</h2>
     <p>
       Aquí se deja una pequeña encuesta sobre Tim Berners-Lee, para conocer un poco 
       cuanto sabías de él y si esta página te ha ayudado a conocerle un poco más.
     </p>
 
     <form name="Datos y preguntas">
-      <p>Datos Personales:</p>
-      <label for = "Nombre">Nombre:</label><br>
-        <input id = "Nombre" type="text" ><br>
-  
-      <label for = "Apellidos"> Apellidos:</label><br>
-        <input id = "Apellidos" type="text" ><br>
-      
-      <label for = "Correo"> Correo Electrónico:</label><br>
-      <input id = "Correo" name = "Nombre" type="email"><br>
+      <label>Datos Personales:</label><br>
+      <p>
+        Nombre:
+      </p>
 
-      <label for = "Fecha"> Fecha de nacimiento:</label><br>
-        <input id = "Fecha" type="date"><br>
+      <input type="text" ><br>
       <p> 
+        Apellido:
+      </p>
+  
+      <input type="text" ><br>
+      <p> 
+        Correo Electrónico para recibir información sobre la página web:
+      </p>
 
-        Preguntas sobre el autor y la página:
-
+      <input name = "Nombre" type="email" ><br>
+      <p> 
+        Fecha de nacimiento:
+      </p>
+      <input type="date"><br>
+      <p> 
+        
+      </p>
+      <label>Preguntas sobre el autor y la página:</label><br>
+      <p>
+        Número de Libros o artículos leídos de Tim Berners-Lee:
+      </p>
+      <input type="number"><br>
+      <p> 
+        ¿Qué le hizo entrar en esta página para conocer más sobre él?
+      </p>
+      <input type="text" ><br>
+      <p> 
+        ¿Cuál cree que fueron sus mejores aportaciones?
+      </p>
+      <input type="checkbox" value="W3C" 
+      checked>Fundar el consorcio internacional de la WWW (W3C)<br>
+      <input type="checkbox" 
+      value="WWW">Ser considerado como el padre de WWW<br>
+      <input type="checkbox" 
+      value="HTTPyHTML">Crear el protocolo HTTP y el lenguaje HTML<br>
+      <p> 
+        Deje un pequeño comentario sobre la página web: contenido adecuado,
+        en que podría mejorar...
       </p>
       
-      <label for = "LibrosLeidos">Número de Libros o artículos leídos de Tim Berners-Lee:</label><br>
-        <input id = "LibrosLeidos" type="number"><br>
-      
-      <label for = "Pregunta">¿Qué le hizo entrar en esta página para conocer más sobre él?</label><br>
-      <input id = "Pregunta" type="text" ><br>
-      <label for = "ch">¿Cuál cree que fueron sus mejores aportaciones?</label><br>
-        <input id = "ch" type="checkbox" value="W3C" 
-      checked>Fundar el consorcio internacional de la WWW (W3C)<br>
-      <input id = "ch" type="checkbox" 
-      value="WWW">Ser considerado como el padre de WWW<br>
-      <input id = "ch" type="checkbox" 
-      value="HTTPyHTML">Crear el protocolo HTTP y el lenguaje HTML<br>
-      <label for = "tx">Comentario sobre la página Web:</label><br>
-      
-      <textarea id = "tx" cols="15" rows="6" ></textarea><br>
-      <!--<button value="Enviar formulario">Enviar formulario</button><br>-->
-      <input type="submit" value="Enviar formulario" >
+      <textarea cols="15" rows="6" ></textarea><br>
+      <button value="Enviar formulario">Enviar formulario</button><br>
       </form>
 </body>
 </html>
