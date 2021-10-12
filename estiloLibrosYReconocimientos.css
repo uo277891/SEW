@@ -1,0 +1,39 @@
+/*Especificidad: 001*/
+body {
+    font-family: Georgia, serif;
+    color: #ffffff;
+    background-color: rgb(240, 194, 194);
+    width: 100%;
+    height: auto;
+    }
+  /*Especificidad: 001*/
+  h1, p {
+    color: rgb(198, 218, 240);  
+    }
+  
+  header{
+    padding: 2.5em;
+    background-color: rgb(59, 26, 26);
+    text-align: center;
+  }
+  
+  /*Tabla*/
+  table { 
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(255, 255, 255);
+    background-color:#042b3d; 
+    caption-side: top;
+    margin:auto;
+    width: 80%;
+    font-size: large;
+    text-align: center;
+    border-collapse: collapse; 
+    border-spacing: 2.5em;
+  }
+
+  tr, td, th{ border: 0.0625em solid rgb(255, 247, 247);}
+
+  img{
+    width: 25%;
+    height: auto;
+  }
