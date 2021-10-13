@@ -11,8 +11,15 @@
 	<link rel="stylesheet" type="text/css" href="estilos/estiloEncuesta.css" />
 </head>
 
-<body>
+  <body>
     <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+      <h1>Tim Berners-Lee, encuesta sobre él:</h1>
+      <p>
+        Aquí se deja una pequeña encuesta sobre Tim Berners-Lee, para conocer un poco 
+        cuanto sabías de él y si esta página te ha ayudado a conocerle un poco más.
+      </p>
+    </header>
     <nav>
       <a title = "Biografía" 
         tabIndex = "1" accessKey = "B" 
@@ -24,62 +31,52 @@
         tabIndex = "2" accessKey = "L" 
         href="librosYReconocimientos.html"> Libros y Reconocimientos</a>
     </nav>
-    <header>
-      <h1>Tim Berners-Lee, encuesta sobre él:</h1>
-      <p>
-        Aquí se deja una pequeña encuesta sobre Tim Berners-Lee, para conocer un poco 
-        cuanto sabías de él y si esta página te ha ayudado a conocerle un poco más.
-      </p>
-    </header>
-
-    <form name="Datos y preguntas">
-      <p>Datos Personales:</p>
-      <label for = "Nombre">Nombre:</label><br>
+    <main>
+      <form name="Datos y preguntas">
+        <p>Datos Personales:</p>
+        <label for = "Nombre">Nombre:</label><br>
         <input id = "Nombre" type="text" ><br>
   
-      <label for = "Apellidos"> Apellidos:</label><br>
+        <label for = "Apellidos"> Apellidos:</label><br>
         <input id = "Apellidos" type="text" ><br>
       
-      <label for = "Correo"> Correo Electrónico:</label><br>
-      <input id = "Correo" name = "Nombre" type="email"><br>
+        <label for = "Correo"> Correo Electrónico:</label><br>
+        <input id = "Correo" name = "Nombre" type="email"><br>
 
-      <label for = "Fecha"> Fecha de nacimiento:</label><br>
-      <input id = "Fecha" type="date"><br>
-      <p> 
+        <label for = "Fecha"> Fecha de nacimiento:</label><br>
+        <input id = "Fecha" type="date"><br>
+        <p> 
 
-        Preguntas sobre el autor y la página:
+          Preguntas sobre el autor y la página:
 
-      </p>
+        </p>
       
-      <label for = "LibrosLeidos">Número de Libros o artículos leídos de Tim Berners-Lee:</label><br>
+        <label for = "LibrosLeidos">Número de Libros o artículos leídos de Tim Berners-Lee:</label><br>
         <input id = "LibrosLeidos" type="number"><br>
       
-      <label for = "Pregunta">¿Qué le hizo entrar en esta página para conocer más sobre él?</label><br>
-      <input id = "Pregunta" type="text" ><br>
-      <fieldset>
-        <legend>¿Cuál cree que fueron sus mejores aportaciones?</legend>
-        <input id = "W3C" type="checkbox" value="W3C" 
-      checked>
-      <label for = "W3C">Fundar el consorcio internacional de la WWW (W3C)</label><br>
-      <input id = "WWW" type="checkbox" 
-      value="WWW">
-      <label for = "WWW">Ser considerado como el padre de WWW</label><br>
-      <input id = "HTML" type="checkbox" 
-      value="HTML">
-      <label for = "HTML">Crear el protocolo HTTP y el lenguaje HTML</label><br>
-    </fieldset>   
-      <!--<label for = "ch">¿Cuál cree que fueron sus mejores aportaciones?</label><br>
-        <input id = "ch" type="checkbox" value="W3C" 
-      checked>Fundar el consorcio internacional de la WWW (W3C)<br>
-      <input id = "ch" type="checkbox" 
-      value="WWW">Ser considerado como el padre de WWW<br>
-      <input id = "ch" type="checkbox" 
-      value="HTTPyHTML">Crear el protocolo HTTP y el lenguaje HTML<br>-->
-      <label for = "tx">Comentario sobre la página Web:</label><br>
+        <label for = "Pregunta">¿Qué le hizo entrar en esta página para conocer más sobre él?</label><br>
+        <input id = "Pregunta" type="text" ><br>
+        <fieldset>
+          <legend>¿Cuál cree que fueron sus mejores aportaciones?</legend>
+          <input id = "W3C" type="checkbox" value="W3C" 
+            checked>
+          <label for = "W3C">Fundar el consorcio internacional de la WWW (W3C)</label><br>
+          <input id = "WWW" type="checkbox" 
+            value="WWW">
+          <label for = "WWW">Ser considerado como el padre de WWW</label><br>
+          <input id = "HTML" type="checkbox" 
+            value="HTML">
+          <label for = "HTML">Crear el protocolo HTTP y el lenguaje HTML</label><br>
+        </fieldset>
+        <label for = "tx">Comentario sobre la página Web:</label><br>
       
-      <textarea id = "tx" cols="15" rows="6" ></textarea><br>
-      <!--<button value="Enviar formulario">Enviar formulario</button><br>-->
-      <input type="submit" value="Enviar formulario" >
+        <textarea id = "tx" cols="15" rows="6" ></textarea><br>
+        <input type="submit" value="Enviar formulario" >
       </form>
-</body>
+    </main>
+      <footer>
+        <p>Autor: UO277891, versión: 1.0, Universidad de Oviedo, curso 2021/2022</p>
+      </footer>
+      
+  </body>
 </html>
