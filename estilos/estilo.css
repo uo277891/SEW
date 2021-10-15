@@ -71,7 +71,7 @@ body {
     height: auto;
   }
 
-  figure{
+  figure>img{
     width: 70%;
     height: auto;
   }
