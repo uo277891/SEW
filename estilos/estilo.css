@@ -6,9 +6,8 @@ body {
     width: 100%;
     height: auto;
     display: grid;
-    grid-gap: 1.2em;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(5, auto);
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(6, auto);
     }
   /*Especificidad: 001*/
   h2 {
@@ -52,12 +51,12 @@ body {
     grid-row: 3;
   }
 
-  body>img{
+  body>figure:last-of-type{
     grid-column: 2/4;
     grid-row: 4;
   }
 
-  body>figure:last-of-type{
+  body>video{
     grid-column: 1/2;
     grid-row: 5;
   }
@@ -73,12 +72,6 @@ body {
   }
 
   figure{
-    width: 100%;
-    height: auto;
-    justify-content: center;
-  }
-
-  img{
     width: 100%;
     height: auto;
   }
