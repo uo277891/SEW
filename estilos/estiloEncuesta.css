@@ -51,11 +51,6 @@ body {
     font-size: 1em;
   }
 
-  img{
-    width: 25%;
-    height: auto;
-  }
-
   footer p{
     text-align: center;
     color:black;
@@ -96,9 +91,4 @@ body {
   body>footer{
     grid-column: 1/4;
     grid-row: 5;
-  }
-  
-  img{
-    width: 100%;
-    height: auto;
   }
