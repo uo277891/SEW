@@ -1,7 +1,7 @@
 /*Especificidad: 001*/
 body {
     font-family: Georgia, serif;
-    color: #ffffff;
+    color: rgb(4, 49, 88);
     background-color: rgb(240, 194, 194);
     width: 100%;
     height: auto;
@@ -11,13 +11,11 @@ body {
     grid-template-rows: repeat(5, auto);
     }
   /*Especificidad: 001*/
-  h1, p {
-    color: rgb(198, 218, 240);  
-    }
   
   header{
     padding: 2.5em;
     background-color: rgb(59, 26, 26);
+    color: rgb(198, 218, 240);
     text-align: center;
   }
   
