@@ -5,6 +5,10 @@ body {
     background-color: rgb(240, 194, 194);
     width: 100%;
     height: auto;
+    display: grid;
+    grid-gap: 1.2em;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(5, auto);
     }
   /*Especificidad: 001*/
   h1, p {
@@ -20,20 +24,73 @@ body {
   /*Tabla*/
   table { 
     font-family: 'Times New Roman', Times, serif;
-    color:rgb(255, 255, 255);
-    background-color:#042b3d; 
+    color:rgb(0, 0, 0);
+    background-color:#99d5f1; 
     caption-side: top;
-    margin:auto;
-    width: 80%;
     font-size: large;
     text-align: center;
     border-collapse: collapse; 
     border-spacing: 2.5em;
   }
 
+  footer p{
+    text-align: center;
+    color:black;
+  }
+
   tr, td, th{ border: 0.0625em solid rgb(255, 247, 247);}
 
   img{
-    width: 25%;
+    width: 100%;
     height: auto;
+  }
+
+  body>header{
+    grid-column: 1/4;
+    grid-row: 1;
+    padding: 2.5em;
+    text-align: center;
+  }
+
+  body>nav{
+    grid-column: 1/4;
+    grid-row: 2;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 2.5em;
+  }
+
+  body>section:first-of-type{
+    grid-column: 1/2;
+    grid-row: 3;
+  }
+
+  body>section:last-of-type{
+    grid-column: 1/2;
+    grid-row: 4;
+  }
+
+  body>figure:first-of-type{
+    grid-column: 2/4;
+    grid-row: 3;
+  }
+
+  body>figure:last-of-type{
+    grid-column: 2/4;
+    grid-row: 4;
+  }
+
+  body>table{
+    grid-column: 1/2;
+    grid-row: 5;
+  }
+
+  body>img{
+    grid-column: 2/4;
+    grid-row: 5;
+  }
+
+  body>footer{
+    grid-column: 1/4;
+    grid-row: 6;
   }

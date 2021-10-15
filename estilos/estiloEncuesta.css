@@ -5,6 +5,10 @@ body {
     background-color: rgb(247, 225, 225);
     width: 100%;
     height: auto;
+    display: grid;
+    grid-gap: 1.2em;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(5, auto);
     }
 
   header{
@@ -49,5 +53,52 @@ body {
 
   img{
     width: 25%;
+    height: auto;
+  }
+
+  footer p{
+    text-align: center;
+    color:black;
+    font-size: 1.3em;
+  }
+
+  body>header{
+    grid-column: 1/4;
+    grid-row: 1;
+    padding: 2.5em;
+    background-color: antiquewhite;
+    text-align: center;
+  }
+
+  body>nav{
+    grid-column: 1/4;
+    grid-row: 2;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 2.5em;
+  }
+
+  body>form{
+    grid-column: 2/3;
+    grid-row: 3;
+  }
+
+  body>figure:first-of-type{
+    grid-column: 2/4;
+    grid-row: 3;
+  }
+
+  body>figure:last-of-type{
+    grid-column: 2/3;
+    grid-row: 4;
+  }
+
+  body>footer{
+    grid-column: 1/4;
+    grid-row: 5;
+  }
+  
+  img{
+    width: 100%;
     height: auto;
   }

@@ -5,10 +5,19 @@ body {
     background-color: rgb(218, 218, 218);
     width: 100%;
     height: auto;
+    display: grid;
+    grid-gap: 1.2em;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(5, auto);
     }
   /*Especificidad: 001*/
-  h2, h3 {
-    color: rgb(14, 2, 32);  
+  h3 {
+    color: rgb(14, 2, 32);
+    text-align: center;  
+    }
+  
+    h2{
+      color: rgb(167, 236, 207)
     }
   
   header{
@@ -22,6 +31,50 @@ body {
   ul { list-style: circle outside; }
   
   img{
-    width: 25%;
+    width: 60%;
     height: auto;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+  body>header{
+    grid-column: 1/4;
+    grid-row: 1;
+    padding: 2.5em;
+    text-align: center;
+  }
+
+  body>nav{
+    grid-column: 1/4;
+    grid-row: 2;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 2.5em;
+  }
+
+  body>section:first-of-type{
+    grid-column: 1/2;
+    grid-row: 3;
+  }
+
+  body>section:last-of-type{
+    grid-column: 1/4;
+    grid-row: 4;
+  }
+
+  body>figure:first-of-type{
+    grid-column: 2/4;
+    grid-row: 3/4;
+  }
+
+  body>figure:last-of-type{
+    grid-column: 2;
+    grid-row: 5;
+  }
+
+  body>footer{
+    grid-column: 1/4;
+    grid-row: 6;
   }
