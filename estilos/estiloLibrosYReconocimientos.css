@@ -1,25 +1,19 @@
 /*Especificidad: 001*/
 body {
-    font-family: Georgia, serif;
     color: rgb(4, 49, 88);
     background-color: rgb(240, 194, 194);
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-gap: 1.2em;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(5, auto);
     }
   /*Especificidad: 001*/
   
   header{
-    padding: 2.5em;
     background-color: rgb(59, 26, 26);
     color: rgb(198, 218, 240);
-    text-align: center;
   }
   
   /*Tabla*/
+  /*Especificidad: 001*/
   table { 
     font-family: 'Times New Roman', Times, serif;
     color:rgb(0, 0, 0);
@@ -33,65 +27,21 @@ body {
     border-spacing: 2.5em;
   }
 
+  /*Especificidad: 002*/
   footer p{
     text-align: center;
     color:black;
   }
 
+  /*Especificidad: 001*/
   tr, td, th{ border: 0.0625em solid rgb(255, 247, 247);}
 
+  /*Especificidad: 001*/
   img{
     width: 100%;
-    height: auto;
   }
 
-  body>header{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    padding: 2.5em;
-    text-align: center;
-  }
-
-  body>nav{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    text-align: center;
-    background-color: aliceblue;
-    padding: 2.5em;
-  }
-
-  body>section:first-of-type{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 3;
-  }
-
-  body>section:last-of-type{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 4;
-  }
-
-  body>figure:first-of-type{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 3;
-  }
-
-  body>figure:last-of-type{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 4;
-    grid-row-end: 4;
-  }
-
+  /*Especificidad: 002*/
   body>table{
     grid-column-start: 1;
     grid-column-end: 2;
@@ -99,16 +49,10 @@ body {
     grid-row-end: 5;
   }
 
+  /*Especificidad: 002*/
   body>img{
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 5;
     grid-row-end: 5;
-  }
-
-  body>footer{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 6;
-    grid-row-end: 6;
   }

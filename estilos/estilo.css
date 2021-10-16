@@ -1,5 +1,5 @@
-/*Especificidad: 001*/
-body {
+  /*Especificidad: 001*/
+  body {
     font-family: Georgia, serif;
     color: #000000;
     background-color: rgb(247, 225, 225);
@@ -13,23 +13,32 @@ body {
   h2 {
     color: rgb(14, 2, 32);  
     }
+   /*Especificidad: 001*/
   h3 {
     color: rgb(15, 32, 2); 
     text-align: center; 
     }
-  footer{
+   /*Especificidad: 001*/
+  header{
+    padding: 2.5em;
+    background-color: antiquewhite;
     text-align: center;
   }
+ /*Especificidad: 002*/
+  footer p{
+    text-align: center;
+    color:black;
+    font-size: 1.3em;
+  }
+   /*Especificidad: 002*/
   body>header{
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 1;
-    padding: 2.5em;
-    background-color: antiquewhite;
-    text-align: center;
+    
   }
-
+  /*Especificidad: 002*/
   body>nav{
     grid-column-start: 1;
     grid-column-end: 4;
@@ -39,14 +48,14 @@ body {
     background-color: aliceblue;
     padding: 2.5em;
   }
-
+  /*Especificidad: 012*/
   body>section:first-of-type{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 3;
   }
-
+  /*Especificidad: 012*/
   body>section:last-of-type{
     grid-column-start: 1;
     grid-column-end: 2;
@@ -54,6 +63,7 @@ body {
     grid-row-end: 4;
   }
 
+  /*Especificidad: 012*/
   body>figure:first-of-type{
     grid-column-start: 2;
     grid-column-end: 4;
@@ -61,13 +71,14 @@ body {
     grid-row-end: 3;
   }
 
+  /*Especificidad: 012*/
   body>figure:last-of-type{
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 4;
     grid-row-end: 4;
   }
-
+  /*Especificidad: 002*/
   body>video{
     grid-column-start: 1;
     grid-column-end: 2;
@@ -75,18 +86,19 @@ body {
     grid-row-end: 5;
   }
 
+  /*Especificidad: 002*/
   body>footer{
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 6;
     grid-row-end: 6;
   }
-  
+  /*Especificidad: 001*/
   video{
     width: 50%;
     height: auto;
   }
-
+  /*Especificidad: 001*/
   img{
     width: 70%;
     height: auto;
