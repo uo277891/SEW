@@ -1,11 +1,17 @@
   /*Especificidad: 001*/
+  body {
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+  }
+  
+  /*Especificidad: 001*/
   h1 {
-    color: rgb(16, 43, 51);
+    color: rgb(10, 53, 66);
     font-size: 2.5em;
     }
 
-  /*Especificidad: 001*/
-  p{
+  /*Especificidad: 002*/
+  form p{
     color: rgb(75, 6, 6);
     font-size: 2em;
     font-style: italic;
@@ -24,10 +30,8 @@
     margin-bottom: 0.9375em;
     font-family: "Roboto", sans-serif;
     padding: 0.625em;
-    box-sizing: border-box; 
     color: rgb(32, 11, 11); 
     font-size: 0.8em;
-    resize: horizontal;
   }
 
   /*Especificidad: 001*/
@@ -40,13 +44,9 @@
   /*Especificidad: 002*/
   body>form{
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 3;
   }
 
-  /*Especificidad: 002*/
-  body>footer{
-    grid-row-start: 4;
-    grid-row-end: 4;
-  }
+ 

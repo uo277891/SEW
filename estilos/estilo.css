@@ -23,7 +23,9 @@
     padding: 2.5em;
     background-color: antiquewhite;
     text-align: center;
+    font-size: 1.2em;
   }
+  
  /*Especificidad: 002*/
   footer p{
     text-align: center;

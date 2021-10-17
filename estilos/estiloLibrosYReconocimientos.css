@@ -1,5 +1,5 @@
-/*Especificidad: 001*/
-body {
+  /*Especificidad: 001*/
+  body {
     color: rgb(4, 49, 88);
     background-color: rgb(240, 194, 194);
     grid-template-columns: repeat(3, auto);
@@ -19,7 +19,7 @@ body {
     color:rgb(0, 0, 0);
     width: 60%;
     height: auto;
-    background-color:#99d5f1; 
+    background-color:#aed3e4; 
     caption-side: top;
     font-size: large;
     text-align: center;
@@ -27,14 +27,12 @@ body {
     border-spacing: 2.5em;
   }
 
-  /*Especificidad: 002*/
-  footer p{
-    text-align: center;
-    color:black;
-  }
-
   /*Especificidad: 001*/
-  tr, td, th{ border: 0.0625em solid rgb(255, 247, 247);}
+  tr, td, th { 
+    border-color: rgb(14, 17, 65);
+    border-style: solid;
+    border-width: 0.1em;
+  }
 
   /*Especificidad: 001*/
   img{
