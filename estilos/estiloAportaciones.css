@@ -21,8 +21,19 @@
   /*Especificidad: 001*/
   ul { list-style: circle outside; }
 
+  /*Especificidad: 002*/
+  body>section{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
   /*Especificidad: 012*/
   body>figure:first-of-type{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
     grid-row-end: 4;
   }
 
