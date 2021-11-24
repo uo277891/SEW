@@ -1,0 +1,72 @@
+body {
+	background: #16110f;
+	color: #FFF;
+	font-family: Calibri, Arial, sans-serif;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+}
+
+header{
+	color:rgb(173, 177, 231);
+}
+
+body>header{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+body>section{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(6, auto);
+    border-radius: 2em;
+}
+
+body>section>:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding: 0.5em;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: rgb(167, 212, 218);
+}
+body>section>input{
+    font-size: 1.5em;
+    padding: 0.3em;
+    margin: 0.5em;
+    border-radius: 1.2em;
+    color:rgb(27, 6, 6);
+    background-color: rgb(178, 235, 200);
+}
+
+body>section>:nth-child(2), body>section>:nth-child(3), body>section>:nth-child(4),
+body>section>:nth-child(5), body>section>:nth-child(6), body>section>:nth-child(7), body>section>:nth-child(8){
+    color:rgb(255, 255, 255);
+    background-color: rgb(66, 76, 87);
+}
+
+body>section>:nth-child(9){
+    color:rgb(255, 255, 255);
+    background-color: rgb(148, 18, 18);
+}
+
+body>section>:nth-child(13), body>section>:nth-child(17), body>section>:nth-child(21), body>section>:nth-child(24){
+    color:rgb(5, 37, 85);
+    background-color: rgb(196, 196, 196);
+}
+
+body>section>:nth-child(25){
+    color:rgb(5, 37, 85);
+    background-color: rgb(196, 196, 196);
+}

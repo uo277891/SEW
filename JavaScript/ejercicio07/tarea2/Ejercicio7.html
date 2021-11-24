@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+  <head>
+      <!-- Datos que describen el documento -->
+      <meta charset="UTF-8" />
+      <meta name="keywords" content="Ejercicio 7" />
+      <meta name="author" content= "Hugo Gutierrez Tomas" />
+      <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+      <title>Ejercicio 7</title>
+	  <link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
+  </head>
+
+  <body>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Ejercicio7.js"></script>
+    <script>var ope = new Operaciones();</script>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <h1>Bnet</h1>
+    <h2>El hombre que cambió el panorama</h2>
+    <h3>"Yo vine como reserva y me fuí como campeón" -Bnet-</h3>
+    <p id="par1">FreeStyler campeón de la Redbull y la FMS</p>
+    <p>Considerado como uno de los revolucionarios en el mundo del freeStyle</p>
+    <p>Primera persona que logra ganar una RedBull Internacional entrando como reserva (el que debía ir no pudo finalmente)</p>
+    <p>Influencias musicales que plasma en lo que hace</p>
+
+    <table>
+        <tr>
+          <td>Titulos / Datos título</td>
+          <th>Año</th>
+          <th>Puesto</th>
+          <th>Rival</th>
+        </tr>
+        <tr>
+          <th>BDM Nacional España</th>
+          <td>2018</td>
+          <td>Subcampeón</td>
+          <td>Chuty</td>
+        </tr>
+        <tr>
+          <th>RedBull Nacional</th>
+          <td>2018</td>
+          <td>Campeón</td>
+          <td>Force</td>
+        </tr>
+        <tr>
+            <th>RedBull Internacional</th>
+            <td>2018</td>
+            <td>Cuarto puesto</td>
+            <td>Valles-T</td>
+          </tr>
+        <tr>
+            <th>RedBull Internacional</th>
+            <td>2019</td>
+            <td>Campeón</td>
+            <td>Valles-T</td>
+        </tr>
+        <tr>
+            <th>FMS Internacional</th>
+            <td>2020</td>
+            <td>Octavos</td>
+            <td>Zticma</td>
+        </tr>
+        <tr>
+            <th>FMS España</th>
+            <td>2020/2021</td>
+            <td>Campeón</td>
+            <td>Gazir</td>
+        </tr>
+      </table>
+      <figure>
+        <img src="bnet.jpg" alt=" Imagen de Bnet" />
+        <figcaption> "Bnet en la RedBull Internacional 2019"</figcaption>
+      </figure>
+      <figure>
+        <video src="bnet.mp4"
+          controls preload="auto">
+        </video>
+        <figcaption> "Minuto de Bnet vs Skone"</figcaption>
+      </figure><br>
+      <section>
+        <input type="button" value="Ocultar Multimedia" onclick= "ope.ocultarImagen()">
+        <input type="button" value="Mostrar Multimedia" onclick= "ope.mostrarImagen()">
+        <input type="button" value="Modificar primer párrafo" onclick= "ope.modificar()">
+        <textarea id = "cambioParrafo" cols="300" rows="3"></textarea>
+      </section>
+    <footer>
+      <p>UO277891 Universidad de Oviedo</p>
+      <address>
+        <p>Correo:
+        <a href="mailto:UO277891@uniovi.es">Hugo Gutiérrez Tomás</a></p>
+      </address>
+    </footer>
+  </body>
+</html>

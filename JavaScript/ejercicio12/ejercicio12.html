@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+  <head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Ejercicio03" />
+    <meta name="author" content= "Hugo Gutierrez Tomas" />
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+    <title>Ejercicio 12</title>
+    <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css" />
+  </head>
+
+  <body>
+    <h1>API File: Leer un archivo de texto situado en la máquina cliente</h1>
+    <script>
+      // Version 1.1 23/10/2021 
+      if (window.File && window.FileReader && window.FileList && window.Blob) 
+      {  
+          //El navegador soporta el API File
+          document.write("<p>Este navegador soporta el API File </p>");
+      }
+          else document.write("<p>¡¡¡ Este navegador NO soporta el API File y este programa puede no funcionar correctamente !!!</p>");
+    </script>
+        
+    <p>Seleccione un archivo de texto: </p>
+        
+    <p><input type="file" id="archivoTexto" onchange="leerArchivoTexto(this.files);"></p>
+   
+    <p id="nombreArchivo"></p>
+    <p id="tamañoArchivo"></p>
+    <p id="tipoArchivo"></p>
+    <p id="ultimaModificacion"></p>
+    <p id="contenidoArchivo"></p>  
+    <pre id="areaTexto"></pre>
+    <p id="errorLectura"></p>
+  
+    <footer>
+        <p>UO277891 Universidad de Oviedo</p>
+        <address>
+          <p>Correo:
+          <a href="mailto:UO277891@uniovi.es">Hugo Gutiérrez Tomás</a></p>
+        </address>
+      </footer>
+  </body>
+  </html>

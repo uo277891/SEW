@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+  <head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Ejercicio 5" />
+    <meta name="author" content= "Hugo Gutierrez Tomas" />
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+    <title>Calculadora RPN</title>
+    <link rel="stylesheet" type="text/css" href="calculadoraFecha.css" />
+  </head>
+
+  <body>
+    <script src="CalculadoraFecha.js"></script>
+    <script>var calculadora = new CalculadoraRPN();</script>
+    <header>
+        <h1>Calculadora RPN</h1>
+    </header>
+      <section>
+        <textarea name="tx" id="elementosPila" cols="30" rows="10" disabled = true></textarea>
+        <input type="button" value="sin" onclick= "calculadora.operacionCientifica('sin');">
+        <input type="button" value="cos" onclick="calculadora.operacionCientifica('cos')">
+        <input type="button" value="tan" onclick="calculadora.operacionCientifica('tan')">
+        <input type="button" value="arcsin" onclick="calculadora.operacionCientifica('arcsin')">
+        <input type="button" value="arccos" onclick="calculadora.operacionCientifica('arccos')">
+        <input type="button" value="arctan" onclick="calculadora.operacionCientifica('arctan');">
+        <input type="button" value="sqrt" onclick="calculadora.operacionCientifica('sqrt');">
+        <input type="button" value="Enter" onclick="calculadora.enter()">
+        <input type="button" value="7" onclick="calculadora.meterValor(7)">
+        <input type="button" value="8" onclick="calculadora.meterValor(8)">
+        <input type="button" value="9" onclick="calculadora.meterValor(9)">
+        <input type="button" value="/" onclick="calculadora.operacionBinaria('/')">
+        <input type="button" value="4" onclick="calculadora.meterValor(4)">
+        <input type="button" value="5" onclick="calculadora.meterValor(5)">
+        <input type="button" value="6" onclick="calculadora.meterValor(6)">
+        <input type="button" value="*" onclick="calculadora.operacionBinaria('*')">
+        <input type="button" value="1" onclick="calculadora.meterValor(1)">
+        <input type="button" value="2" onclick="calculadora.meterValor(2)">
+        <input type="button" value="3" onclick="calculadora.meterValor(3)">
+        <input type="button" value="-" onclick="calculadora.operacionBinaria('-')">
+        <input type="button" value="0" onclick="calculadora.meterValor(0)">
+        <input type="button" value="." onclick="calculadora.punto()">
+        <input type="button" value="reset" onclick="calculadora.reset()">
+        <input type="button" value="+" onclick="calculadora.operacionBinaria('+')">
+      </section>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+  <head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Ejercicio03" />
+    <meta name="author" content= "Hugo Gutierrez Tomas" />
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+    <title>Calculadora Científica</title>
+    <link rel="stylesheet" type="text/css" href="CalculadoraCientificaWindows.css" />
+  </head>
+
+  <body>
+    <script src="CalculadoraCientifica.js"></script>
+    <script>var calculadora = new CalculadoraCientifica();
+			calculadora.mapeoTeclas();
+	</script>
+    <header>
+        <h1>Calculadora Cientifica</h1>
+    </header>
+      <form>
+        <textarea name="tx" id="expresion" cols="5" rows="3" disabled = true></textarea>
+        <input type="button" value=">>">
+        <input type="button" value="mrc" onclick= "calculadora.mrc();">
+        <input type="button" value="m+" onclick="calculadora.mPlus()">
+        <input type="button" value="m-" onclick="calculadora.mMenos()">
+        <input type="button" value='>>'>
+        <input type="button" value="x^2" onclick="calculadora.cuadrado()">
+        <input type="button" value="x^y" onclick="calculadora.elevado()">
+        <input type="button" value="sin" onclick="calculadora.sin()">
+        <input type="button" value="cos" onclick="calculadora.cos()">
+        <input type="button" value="tan" onclick="calculadora.tan()">
+        <input type="button" value="&Sqrt;" onclick="calculadora.sqrt()">
+        <input type="button" value="10^x" onclick="calculadora.exp10()">
+        <input type="button" value="log" onclick="calculadora.log()">
+        <input type="button" value="Exp" onclick="calculadora.exp()">
+        <input type="button" value="Mod" onclick="calculadora.mod()">
+        <input type="button" value="|x|" onclick="calculadora.abs()">
+        <input type="button" value="ln" onclick="calculadora.ln()">
+        <input type="button" value="C" onclick="calculadora.c()">
+        <input type="button" value="&#9003;" onclick="calculadora.mMenos()">
+        <input type="button" value="&#247;" onclick="calculadora.division()">
+        <input type="button" value="&pi;" onclick="calculadora.pi()">
+        <input type="button" value="7" onclick="calculadora.pulsarNumero(7)">
+        <input type="button" value="8" onclick="calculadora.pulsarNumero(8)">
+        <input type="button" value="9" onclick="calculadora.pulsarNumero(9)">
+        <input type="button" value="x" onclick="calculadora.multiplicacion()">
+        <input type="button" value="n!" onclick="calculadora.fact()">
+        <input type="button" value="4" onclick="calculadora.pulsarNumero(4)">
+        <input type="button" value="5" onclick="calculadora.pulsarNumero(5)">
+        <input type="button" value="6" onclick="calculadora.pulsarNumero(6)">
+        <input type="button" value="-" onclick="calculadora.resta()">
+        <input type="button" value="e" onclick="calculadora.e()">
+        <input type="button" value="1" onclick="calculadora.pulsarNumero(1)">
+        <input type="button" value="2" onclick="calculadora.pulsarNumero(2)">
+        <input type="button" value="3" onclick="calculadora.pulsarNumero(3)">
+        <input type="button" value="+" onclick="calculadora.suma()">
+        <input type="button" value="(" onclick="calculadora.parentesisAbrir()">
+        <input type="button" value=")" onclick="calculadora.parentesisCerrar()">
+        <input type="button" value="0" onclick="calculadora.pulsarNumero(0)">
+        <input type="button" value="." onclick="calculadora.punto()">
+        <input type="button" value="=" onclick="calculadora.igual()">
+      </form>
+  </body>
+</html>
