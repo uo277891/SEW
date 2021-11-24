@@ -20,7 +20,7 @@
         <h1>Calculadora Cientifica</h1>
     </header>
       <form>
-        <textarea name="tx" id="expresion" cols="5" rows="3" disabled = true></textarea>
+        <textarea name="tx" id="expresion" cols="5" rows="3" disabled></textarea>
         <input type="button" value=">>">
         <input type="button" value="mrc" onclick= "calculadora.mrc();">
         <input type="button" value="m+" onclick="calculadora.mPlus()">
@@ -61,6 +61,7 @@
         <input type="button" value="0" onclick="calculadora.pulsarNumero(0)">
         <input type="button" value="." onclick="calculadora.punto()">
         <input type="button" value="=" onclick="calculadora.igual()">
+        <input type="submit" value="Reiniciar">
       </form>
   </body>
 </html>

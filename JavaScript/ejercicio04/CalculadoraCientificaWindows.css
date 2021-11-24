@@ -74,3 +74,8 @@ body>form>:nth-child(39), body>form>:nth-child(40){
 body>form>:nth-child(41){
     background-color: rgb(196, 198, 201);
 }
+
+body>form>:nth-child(42){
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
