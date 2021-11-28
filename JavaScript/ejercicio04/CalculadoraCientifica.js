@@ -371,4 +371,7 @@ class CalculadoraCientifica extends CalculadoraBasica{
         document.getElementById('expresion').value = this.pantallaUsuario;
     }
 }
+
+var calculadora = new CalculadoraCientifica();
+	calculadora.mapeoTeclas();
     
