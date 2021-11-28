@@ -17,6 +17,7 @@
       <h1>Calculadora Básica</h1>
       <p>Calculadora con funcionalidad básica</p>
     </header>
+      <label for="boton"></label>
       <label for="boton1"></label>
       <label for="boton2"></label>
       <label for="boton3"></label>
@@ -38,8 +39,8 @@
       <label for="boton19"></label>
       <label for="boton20"></label>
       <label for="expresion">Realizada con JS</label>
-      <section>
-		    <h2>UO277891</h2>
+      <form>
+        <input type="submit" id="boton" value = "---------------------------------" disabled>
         <input type="text" id="expresion" disabled>
         <input type="button" id="boton1" value="mrc" onclick= "calculadora.mrc();">
         <input type="button" id="boton2"  value="m+" onclick="calculadora.mPlus()">
@@ -61,6 +62,6 @@
         <input type="button" id="boton18"  value="." onclick="calculadora.punto()">
         <input type="button" id="boton19"  value="C" onclick="calculadora.c()">
         <input type="button" id="boton20"  value="=" onclick="calculadora.igual()">
-      </section>
+      </form>
   </body>
 </html>
