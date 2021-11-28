@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+  <head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Ejercicio03" />
+    <meta name="author" content= "Hugo Gutierrez Tomas" />
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css" />
+	  <script src="CalculadoraBasica.js"></script>
+  </head>
+
+  <body>
+    <header>
+        <h1>Calculadora Básica</h1>
+    </header>
+      <p>Calculadora con funcionalidad básica</p>
+      <label for="boton1"></label>
+      <label for="boton2"></label>
+      <label for="boton3"></label>
+      <label for="boton4"></label>
+      <label for="boton5"></label>
+      <label for="boton6"></label>
+      <label for="boton7"></label>
+      <label for="boton8"></label>
+      <label for="boton9"></label>
+      <label for="boton10"></label>
+      <label for="boton11"></label>
+      <label for="boton12"></label>
+      <label for="boton13"></label>
+      <label for="boton14"></label>
+      <label for="boton15"></label>
+      <label for="boton16"></label>
+      <label for="boton17"></label>
+      <label for="boton18"></label>
+      <label for="boton19"></label>
+      <label for="boton20"></label>
+      <label for="expresion"></label>
+      <section>
+		    <h2>UO277891</h2>
+        <input type="text" id="expresion" value = "" disabled>
+        <input type="button" id="boton1" value="mrc" onclick= "calculadora.mrc();">
+        <input type="button" id="boton2"  value="m+" onclick="calculadora.mPlus()">
+        <input type="button" id="boton3"  value="m-" onclick="calculadora.mMenos()">
+        <input type="button" id="boton4"  value="/" onclick="calculadora.division()">
+        <input type="button" id="boton5"  id = "7" value="7" onclick="calculadora.pulsarNumero(7)">
+        <input type="button" id="boton6"  value="8" onclick="calculadora.pulsarNumero(8);">
+        <input type="button" id="boton7"  value="9" onclick="calculadora.pulsarNumero(9)">
+        <input type="button" id="boton8"  value="*" onclick="calculadora.multiplicacion()">
+        <input type="button" id="boton9"  value="4" onclick="calculadora.pulsarNumero(4)">
+        <input type="button" id="boton10"  value="5" onclick="calculadora.pulsarNumero(5)">
+        <input type="button" id="boton11"  value="6" onclick="calculadora.pulsarNumero(6)">
+        <input type="button" id="boton12"  value="-" onclick="calculadora.resta()">
+        <input type="button" id="boton13"  value="1" onclick="calculadora.pulsarNumero(1)">
+        <input type="button" id="boton14"  value="2" onclick="calculadora.pulsarNumero(2)">
+        <input type="button" id="boton15"  value="3" onclick="calculadora.pulsarNumero(3)">
+        <input type="button" id="boton16"  value="+" onclick="calculadora.suma()">
+        <input type="button" id="boton17"  value="0" onclick="calculadora.pulsarNumero(0)">
+        <input type="button" id="boton18"  value="." onclick="calculadora.punto()">
+        <input type="button" id="boton19"  value="C" onclick="calculadora.c()">
+        <input type="button" id="boton20"  value="=" onclick="calculadora.igual()">
+      </section>
+  </body>
+</html>
