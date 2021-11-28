@@ -18,7 +18,7 @@ p{
     font-size: 1.5em;
 }
 
-body>header{
+body>h1{
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
