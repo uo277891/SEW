@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Lugares nacimiento y fallecimiento</name>
+<Placemark> <name>Nacimiento Hugo</name><Point><coordinates>-5.700571,43.541696,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Nacimiento Maria Eloina</name><Point><coordinates>-5.170441,43.192076,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Nacimiento Esther</name><Point><coordinates>-5.170441,43.192076,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Nacimiento Maruja</name><Point><coordinates>-5.170441,43.192076,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Fallecimiento Maruja</name><Point><coordinates>-5.868066,43.356926,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Nacimiento Desconocido</name><Point><coordinates>-5.170441,43.192076,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Nacimiento Saturnino</name><Point><coordinates>-5.170441,43.192076,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Fallecimiento Saturnino</name><Point><coordinates>-5.700616,43.549448,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Nacimiento Catalina</name><Point><coordinates>-5.170441,43.192076,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Fallecimiento Catalina</name><Point><coordinates>-5.170441,43.192076,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Nacimiento Jose Joaquin</name><Point><coordinates>-5.652389,43.533868,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Nacimiento Lucinia</name><Point><coordinates>-105.609225,20.354893,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Fallecimiento Lucinia</name><Point><coordinates>-5.606926,43.524697,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Nacimiento Lucinia</name><Point><coordinates>-5.627424,43.251774,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Fallecimiento Lucinia</name><Point><coordinates>-5.606926,43.524697,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Nacimiento German</name><Point><coordinates>-5.627424,43.251774,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Fallecimiento German</name><Point><coordinates>-5.606926,43.524697,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Nacimiento Victor</name><Point><coordinates>-5.664882,43.535134,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Fallecimiento Victor</name><Point><coordinates>-5.606926,43.524697,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Nacimiento Joaquina</name><Point><coordinates>-5.062919,43.457834,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Fallecimiento Joaquina</name><Point><coordinates>-5.606926,43.524697,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Nacimiento Jose</name><Point><coordinates>-5.062059,43.456549,0.0</coordinates></Point></Placemark>
+<Placemark> <name>Fallecimiento Jose</name><Point><coordinates>-5.606926,43.524697,0.0</coordinates></Point></Placemark>
+</Document>
+</kml>

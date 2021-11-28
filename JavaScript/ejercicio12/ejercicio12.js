@@ -1,37 +1,26 @@
-   
-  // Version 1.1 23/10/2021  
-  function leerArchivoTexto(files) 
+"use strict";
+class Archivos{
+  leerArchivos(files) 
   { 
-      //Solamente toma un archivo
-      //var archivo = document.getElementById("archivoTexto").files[0];
-      var archivo = files[0];
-      var nombre = document.getElementById("nombreArchivo");
-      var tamaño = document.getElementById("tamañoArchivo");
-      var tipo = document.getElementById("tipoArchivo");
-      var ultima = document.getElementById("ultimaModificacion");
-      var contenido = document.getElementById("contenidoArchivo");
-      var areaVisualizacion = document.getElementById("areaTexto");
-      var errorArchivo = document.getElementById("errorLectura");
-      nombre.innerText = "Nombre del archivo: " + archivo.name;
-      tamaño.innerText = "Tamaño del archivo: " + archivo.size + " bytes"; 
-      tipo.innerText = "Tipo del archivo: " + archivo.type;
-      ultima.innerText = "Fecha de la última modificación: " + archivo.lastModifiedDate;
-      contenido.innerText="Contenido del archivo de texto:"
-      //Solamente admite archivos de tipo texto
-      var tipoTexto = /text.*/;
-      if (archivo.type.match(tipoTexto)) 
-        {
+      var bytesTotales = 0,
+          numArchivos = files.length;
+      $("section").empty();
+      for(var i = 0; i < numArchivos; i++){
+        $("section").append("<ul><li>Nombre del archivo: " + files[i].name + "</li>");
+        $("section").append("<li>Tamaño del archivo: " + files[i].size + " bytes</li>");
+        bytesTotales += files[i].size;
+        $("section").append("<li>Tipo del archivo: " + files[i].type + "</li>");
+        $("section").append("<li>Fecha de la última modificación: " + files[i].lastModifiedDate + "</li></ul>");
+        if(files[i].type == 'text/plain' || files[i].type == 'text/xml' || files[i].type == 'application/json'){
           var lector = new FileReader();
           lector.onload = function (evento) {
-            //El evento "onload" se lleva a cabo cada vez que se completa con éxito una operación de lectura
-            //La propiedad "result" es donde se almacena el contenido del archivo
-            //Esta propiedad solamente es válida cuando se termina la operación de lectura
-            areaVisualizacion.innerText = lector.result;
-            }      
-          lector.readAsText(archivo);
-          }
-      else {
-          errorArchivo.innerText = "Error : ¡¡¡ Archivo no válido !!!";
-          }       
-  };
-  
+            $("section").append("<textarea name='tx'  cols='150' rows='50' disabled>" + this.result +"</textarea>");
+          };      
+          lector.readAsText(files[i]);
+        }
+      }
+      $("section").append("<p>Número de archivos: " + numArchivos + "</p>"); 
+      $("section").append("<p>Peso de los archivos: " + bytesTotales + " bytes</p>"); 
+      $("section").append("<p>Contenido de los archivos con formato json, xml o txt: </p>");
+  }
+}
