@@ -96,4 +96,6 @@ class CalculadoraBasica {
     }
 
 }
-    
+ 
+var calculadora = new CalculadoraBasica();
+    calculadora.mapeoTeclas();
