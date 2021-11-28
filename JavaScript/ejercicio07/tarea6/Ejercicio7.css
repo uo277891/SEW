@@ -70,8 +70,15 @@
   input[type = "button"]{
     padding: 0.8em;
     margin: 0.5em;
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 2;
+  }
+
+  label{
+    padding: 0.8em;
+    margin: 0.5em;
+    grid-column-start: 1;
+    grid-column-end: 1;
   }
 
   textarea{
