@@ -14,6 +14,7 @@
   </head>
 
   <body>
+    <header>
     <h1>API File: Leer un archivo de texto situado en la máquina cliente</h1>
     <p>
       App que calcula, subido un archivo de texto válido, el imc, proporcionando la ubicación real del usuario
@@ -23,6 +24,7 @@
     <p>
      APIS Utilizadas: API Fullscreen, API Geolocation, API File.
     </p>
+    </header>
     <main>
       <input type="file" id="archivos" onchange="obj.ejecutaApp(this.files);">
       <aside>
@@ -30,7 +32,9 @@
       </aside>
       <section>
         <h2>Datos (Se generarán una vez se cargue el archivo): </h2>
+        <label for = "datos">Contenido del archivo cargado:</label>
         <textarea name='tx' id = "datos" cols='50' rows='20' disabled>Aquí se imprimirán los datos</textarea>
+        <label for = "datos">Reproduce el video a pantalla completa:</label>
         <input type="button" value = "Video a pantalla completa" onclick="obj.videoPantallaCompleta();">
         <video controls id="video">
           <source src="imcVideo.mp4"></source>
