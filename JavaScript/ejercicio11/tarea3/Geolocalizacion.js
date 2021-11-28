@@ -2,6 +2,7 @@
 class Geolocalizacion {
     constructor (){
         navigator.geolocation.getCurrentPosition(this.getPosicion.bind(this), this.mostrarError.bind(this));
+        this.mensaje = "Todo ha ido perfecto, aquí tiene su imagen estática de Google Maps:"
     }
     getPosicion(posicion){
         this.mensaje = "Todo ha ido perfecto, aquí tiene su imagen estática de Google Maps:"

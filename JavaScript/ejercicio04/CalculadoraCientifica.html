@@ -21,16 +21,16 @@
     </header>
       <form>
         <textarea name="tx" id="expresion" cols="5" rows="3" disabled></textarea>
-        <input type="button" value=">>">
         <input type="button" value="mrc" onclick= "calculadora.mrc();">
         <input type="button" value="m+" onclick="calculadora.mPlus()">
         <input type="button" value="m-" onclick="calculadora.mMenos()">
-        <input type="button" value='>>'>
+        <input type="button" value='Inv.' onclick="calculadora.funcInversa()">
+        <input type="button" value="Hiper." onclick="calculadora.funcHiperbolica()">
         <input type="button" value="x^2" onclick="calculadora.cuadrado()">
         <input type="button" value="x^y" onclick="calculadora.elevado()">
-        <input type="button" value="sin" onclick="calculadora.sin()">
-        <input type="button" value="cos" onclick="calculadora.cos()">
-        <input type="button" value="tan" onclick="calculadora.tan()">
+        <input id = 'sin' type="button" value="sin" onclick="calculadora.sin()">
+        <input id = 'cos' type="button" value="cos" onclick="calculadora.cos()">
+        <input id = 'tan' type="button" value="tan" onclick="calculadora.tan()">
         <input type="button" value="&Sqrt;" onclick="calculadora.sqrt()">
         <input type="button" value="10^x" onclick="calculadora.exp10()">
         <input type="button" value="log" onclick="calculadora.log()">
@@ -39,7 +39,7 @@
         <input type="button" value="|x|" onclick="calculadora.abs()">
         <input type="button" value="ln" onclick="calculadora.ln()">
         <input type="button" value="C" onclick="calculadora.c()">
-        <input type="button" value="&#9003;" onclick="calculadora.mMenos()">
+        <input type="button" value="Trig." onclick="calculadora.funcTrigonometrica()">
         <input type="button" value="&#247;" onclick="calculadora.division()">
         <input type="button" value="&pi;" onclick="calculadora.pi()">
         <input type="button" value="7" onclick="calculadora.pulsarNumero(7)">

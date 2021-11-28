@@ -4,7 +4,7 @@
     background-color: rgb(194, 201, 240);
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(25, auto);
+    grid-template-rows: repeat(7, auto);
   }
   /*Especificidad: 001*/
   p{

@@ -6,7 +6,7 @@ class CalculadoraBasica {
     numero = new Text();
     numero2 = new Text();
     pantallaUsuario = new Text();
-
+    estadoFunciones = new String();
 
     constructor (){
         this.pantalla = "";
@@ -14,6 +14,28 @@ class CalculadoraBasica {
         this.res = 0;
         this.memoria = 0;
         this.numero = "";
+        this.estadoFunciones = "trigonometrica";
+    }
+
+    funcInversa(){
+        this.estadoFunciones = "inversa";
+        document.getElementById('sin').value = "asin";
+        document.getElementById('cos').value = "acos";
+        document.getElementById('tan').value = "atan";
+    }
+
+    funcHiperbolica(){
+        this.estadoFunciones = "hiperbolica";
+        document.getElementById('sin').value = "hsin";
+        document.getElementById('cos').value = "hcos";
+        document.getElementById('tan').value = "htan";
+    }
+
+    funcTrigonometrica(){
+        this.estadoFunciones = "trigonometrica";
+        document.getElementById('sin').value = "sin";
+        document.getElementById('cos').value = "cos";
+        document.getElementById('tan').value = "tan";
     }
 
     pulsarNumero(numero){        
@@ -173,8 +195,18 @@ class CalculadoraCientifica extends CalculadoraBasica{
 
     sin(){
         if(this.numero.length > 0){
-            this.pantalla += "Math.sin(new Number(" + eval(this.numero) + "))";
-            this.pantallaUsuario += "sin(" + this.numero + ")";
+            if(this.estadoFunciones == "trigonometrica"){
+                this.pantalla += "Math.sin(new Number(" + eval(this.numero) + "))";
+                this.pantallaUsuario += "sin(" + this.numero + ")";
+            }
+            else if(this.estadoFunciones == "inversa"){
+                this.pantalla += "Math.asin(new Number(" + eval(this.numero) + "))";
+                this.pantallaUsuario += "asin(" + this.numero + ")";
+            }
+            else{
+                this.pantalla += "Math.sinh(new Number(" + eval(this.numero) + "))";
+                this.pantallaUsuario += "sinh(" + this.numero + ")";
+            }
             this.numero = "";
             document.getElementById('expresion').value = this.pantallaUsuario;
         }
@@ -182,8 +214,18 @@ class CalculadoraCientifica extends CalculadoraBasica{
 
     cos(){
         if(this.numero.length > 0){
-            this.pantalla += "Math.cos(new Number(" + eval(this.numero) + "))";
-            this.pantallaUsuario += "cos(" + this.numero + ")";
+            if(this.estadoFunciones == "trigonometrica"){
+                this.pantalla += "Math.cos(new Number(" + eval(this.numero) + "))";
+                this.pantallaUsuario += "cos(" + this.numero + ")";
+            }
+            else if(this.estadoFunciones == "inversa"){
+                this.pantalla += "Math.acos(new Number(" + eval(this.numero) + "))";
+                this.pantallaUsuario += "acos(" + this.numero + ")";
+            }
+            else{
+                this.pantalla += "Math.cosh(new Number(" + eval(this.numero) + "))";
+                this.pantallaUsuario += "cosh(" + this.numero + ")";
+            }
             this.numero = "";
             document.getElementById('expresion').value = this.pantallaUsuario;
         }
@@ -191,8 +233,18 @@ class CalculadoraCientifica extends CalculadoraBasica{
 
     tan(){
         if(this.numero.length > 0){
-            this.pantalla += "Math.tan(new Number(" + eval(this.numero) + "))";
-            this.pantallaUsuario += "tan(" + this.numero + ")";
+            if(this.estadoFunciones == "trigonometrica"){
+                this.pantalla += "Math.tan(new Number(" + eval(this.numero) + "))";
+                this.pantallaUsuario += "tan(" + this.numero + ")";
+            }
+            else if(this.estadoFunciones == "inversa"){
+                this.pantalla += "Math.atan(new Number(" + eval(this.numero) + "))";
+                this.pantallaUsuario += "atan(" + this.numero + ")";
+            }
+            else{
+                this.pantalla += "Math.tanh(new Number(" + eval(this.numero) + "))";
+                this.pantallaUsuario += "tanh(" + this.numero + ")";
+            }
             this.numero = "";
             document.getElementById('expresion').value = this.pantallaUsuario;
         }

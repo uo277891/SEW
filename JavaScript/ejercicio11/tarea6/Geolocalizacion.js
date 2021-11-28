@@ -1,7 +1,26 @@
 var miMapa = new Object();
 
-function initMap(){  
-    var centro = {lat: 43.3672702, lng: -5.8502461};
+"use strict";
+  class Geolocalizacion{
+    constructor(){}
+
+    initMap(){
+      miMapa.initMap = initMap;
+    }
+    
+  }
+
+function initMap(){
+  var lati = 0;
+  var long = 0;
+  try{
+    lati = parseInt(document.getElementById('Latitud').value);
+    long = parseInt(document.getElementById('Longitud').value);
+  }catch(err){
+    lati = 43.3672702;
+    long = -5.8502461;
+  }
+    var centro = {lat: lati, lng: long};
     var mapaGeoposicionado = new google.maps.Map(document.getElementById('mapa'),{
         zoom: 8,
         center:centro,
@@ -18,8 +37,8 @@ function initMap(){
 
             infoWindow.setPosition(pos);
             infoWindow.setContent('Aquí está usted');
-            infoWindow.open(mapaGeoposicionado);
-            mapaGeoposicionado.setCenter(pos);
+            //infoWindow.open(mapaGeoposicionado);
+            mapaGeoposicionado.setCenter(centro);
           }, function() {
             handleLocationError(true, infoWindow, mapaGeoposicionado.getCenter());
           });
@@ -27,14 +46,12 @@ function initMap(){
           // Browser doesn't support Geolocation
           handleLocationError(false, infoWindow, mapaGeoposicionado.getCenter());
         }
-      }
+    }
 
       function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-        infoWindow.setPosition(pos);
-        infoWindow.setContent(browserHasGeolocation ?
-                              'Error: Ha fallado la geolocalización' :
-                              'Error: Su navegador no soporta geolocalización');
-        infoWindow.open(mapaGeoposicionado);
+        //infoWindow.setPosition(pos);
+        //infoWindow.setContent(browserHasGeolocation ?
+                              //'Error: Ha fallado la geolocalización' :
+                              //'Error: Su navegador no soporta geolocalización');
+        //infoWindow.open(mapaGeoposicionado);
       }
-
-miMapa.initMap = initMap;
