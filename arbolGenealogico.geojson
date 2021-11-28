@@ -1,0 +1,235 @@
+{
+    "type": "FechasArbolNacimiento",
+    "features": [
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.700571, 43.541696, 0.0 ]
+        },
+        "properties": {
+          "name": "Nacimiento Hugo"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.170441, 43.192076, 0.0 ]
+        },
+        "properties": {
+          "name": "Nacimiento María Eloina"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.170441, 43.192076, 0.0 ]
+        },
+        "properties": {
+          "name": "Nacimiento Esther"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.170441, 43.192076, 0.0 ]
+        },
+        "properties": {
+          "name": "Nacimiento Maruja"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.868066,43.356926, 0.0 ]
+        },
+        "properties": {
+          "name": "Fallecimiento Maruja"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.170441,43.192076, 0.0 ]
+        },
+        "properties": {
+          "name": "Nacimiento Desconocido"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.170441,43.192076, 0.0 ]
+        },
+        "properties": {
+          "name": "Nacimiento Saturnino"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.700616,43.549448, 0.0 ]
+        },
+        "properties": {
+          "name": "Fallecimiento Saturnino"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.170441,43.192076, 0.0 ]
+        },
+        "properties": {
+          "name": "Nacimiento Catalina"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.170441,43.192076, 0.0 ]
+        },
+        "properties": {
+          "name": "Fallecimiento Catalina"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.652389,43.533868, 0.0 ]
+        },
+        "properties": {
+          "name": "Nacimiento Jose Joaquin"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -105.609225,20.354893, 0.0 ]
+        },
+        "properties": {
+          "name": "Nacimiento Lucinia"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.606926,43.524697, 0.0 ]
+        },
+        "properties": {
+          "name": "Fallecimiento Lucinia"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.627424,43.251774, 0.0 ]
+        },
+        "properties": {
+          "name": "Nacimiento Lucinia"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.606926,43.524697, 0.0 ]
+        },
+        "properties": {
+          "name": "Fallecimiento Lucinia"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.627424,43.251774, 0.0 ]
+        },
+        "properties": {
+          "name": "Nacimiento German"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.606926,43.524697, 0.0 ]
+        },
+        "properties": {
+          "name": "Fallecimiento German"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.664882,43.535134, 0.0 ]
+        },
+        "properties": {
+          "name": "Nacimiento Victor"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.606926,43.524697, 0.0 ]
+        },
+        "properties": {
+          "name": "Fallecimiento Victor"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.062919,43.457834, 0.0 ]
+        },
+        "properties": {
+          "name": "Nacimiento Joaquina"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.606926,43.524697, 0.0 ]
+        },
+        "properties": {
+          "name": "Fallecimiento Joaquina"
+        }
+      },
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.062059,43.456549, 0.0 ]
+        },
+        "properties": {
+          "name": "Nacimiento Jose"
+        }
+      }, 
+      {
+        "type": "Fecha",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.606926,43.524697, 0.0 ]
+        },
+        "properties": {
+          "name": "Fallecimiento Jose"
+        }
+      }
+    ]
+  }
