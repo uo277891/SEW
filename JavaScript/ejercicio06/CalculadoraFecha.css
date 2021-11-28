@@ -20,7 +20,7 @@ body>header{
     grid-row-end: 1;
 }
 
-body>section{
+body>form{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -31,7 +31,7 @@ body>section{
     border-radius: 2em;
 }
 
-body>section>:nth-child(1){
+body>form>:nth-child(1){
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 1;
@@ -39,9 +39,19 @@ body>section>:nth-child(1){
     padding: 0.5em;
     font-size: 1.5em;
     text-align: center;
+}
+
+body>form>:nth-child(2){
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding: 0.5em;
+    font-size: 1.5em;
+    text-align: center;
     background-color: rgb(167, 212, 218);
 }
-body>section>input{
+body>form>input{
     font-size: 1.5em;
     padding: 0.3em;
     margin: 0.5em;
@@ -50,20 +60,20 @@ body>section>input{
     background-color: rgb(178, 235, 200);
 }
 
-body>section>:nth-child(2), body>section>:nth-child(3), body>section>:nth-child(4),
-body>section>:nth-child(5), body>section>:nth-child(6){
+body>form>:nth-child(3), body>form>:nth-child(4), body>form>:nth-child(5),
+body>form>:nth-child(6), body>form>:nth-child(7){
     color:rgb(255, 255, 255);
     background-color: rgb(66, 76, 87);
 }
 
-body>section>:nth-child(7){
+body>form>:nth-child(8){
     color:rgb(255, 255, 255);
     background-color: rgb(148, 18, 18);
     grid-column-start: 1;
     grid-column-end: 6;
 }
 
-body>section>:nth-child(18){
+body>form>:nth-child(19){
     color:rgb(255, 255, 255);
     background-color: rgb(5, 37, 85);
     grid-column-start: 1;

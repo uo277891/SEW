@@ -208,3 +208,6 @@
                   });
             }
         }
+
+var calculadora = new CalculadoraFecha();
+        calculadora.mapeoTeclas();
