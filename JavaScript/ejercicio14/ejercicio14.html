@@ -32,13 +32,13 @@
     <main>
       <aside>
         <h2>Seleccione un archivo de texto: </h2>
-        <p>*Recuerde el formato establecido*</p>
+        <label for = "archivos">*Recuerde el formato establecido*</label>
       </aside>
       <input type="file" id="archivos" onchange="obj.ejecutaApp(this.files);">
       <section>
         <h2>Datos (Se generarán una vez se cargue el archivo): </h2>
         <label for = "datos">Contenido del archivo cargado:</label>
-        <textarea name='tx' id = "datos" cols='50' rows='20' disabled>Aquí se imprimirán los datos</textarea>
+        <textarea name='datos' id = "datos" cols='50' rows='20' disabled>Aquí se imprimirán los datos</textarea>
         <input type="button" value = "Video a pantalla completa" onclick="obj.videoPantallaCompleta();">
         <video controls id="video">
           <source src="imcVideo.mp4"></source>

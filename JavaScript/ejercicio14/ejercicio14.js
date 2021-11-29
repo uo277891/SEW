@@ -55,6 +55,7 @@ class Ejercicio14{
             lector.onload = function (evento) {
             $("aside").append("<textarea id = 'datosSubidos' name='tx'  cols='30' rows='20' disabled>" + this.result +"</textarea>");
             var contenido = this.result.split('\n');
+            document.getElementById("datos").value = "";
             for(var i = 0; i < contenido.length; i++){
               var linea = contenido[i];
               var nombre = linea.split(';')[0];
