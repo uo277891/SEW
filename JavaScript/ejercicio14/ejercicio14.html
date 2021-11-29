@@ -24,17 +24,21 @@
     <p>
      APIS Utilizadas: API Fullscreen, API Geolocation, API File.
     </p>
+    <p>
+      Formato para procesar el archivo de texto: Nombre Persona;Altura (en cm);Peso (en kg).
+      Importante que el formato tenga ';'
+     </p>
     </header>
     <main>
-      <input type="file" id="archivos" onchange="obj.ejecutaApp(this.files);">
       <aside>
         <h2>Seleccione un archivo de texto: </h2>
+        <p>*Recuerde el formato establecido*</p>
       </aside>
+      <input type="file" id="archivos" onchange="obj.ejecutaApp(this.files);">
       <section>
         <h2>Datos (Se generarán una vez se cargue el archivo): </h2>
         <label for = "datos">Contenido del archivo cargado:</label>
         <textarea name='tx' id = "datos" cols='50' rows='20' disabled>Aquí se imprimirán los datos</textarea>
-        <label for = "datos">Reproduce el video a pantalla completa:</label>
         <input type="button" value = "Video a pantalla completa" onclick="obj.videoPantallaCompleta();">
         <video controls id="video">
           <source src="imcVideo.mp4"></source>

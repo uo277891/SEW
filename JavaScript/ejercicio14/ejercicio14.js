@@ -46,14 +46,14 @@ class Ejercicio14{
       $("aside").append("<ul><li> Información sobre el archivo seleccionado</li>");
       $("aside").append("<li>Nombre del archivo: " + archivo.name + "</li>");
       $("aside").append("<li>Tipo del archivo: " + archivo.type + "(para poder parsearlo debe ser un .txt)</li></ul>");
-      $("aside").append("<p>Contenido del archivo subido:</p>");
+      $("aside").append("<label for = 'datosSubidos'>Contenido del archivo subido:</label>");
       var txt = "text/plain";
       if (archivo.type == txt)
         {
           var stringDatos = "";
             var lector = new FileReader();
             lector.onload = function (evento) {
-            $("aside").append("<textarea name='tx'  cols='30' rows='20' disabled>" + this.result +"</textarea>");
+            $("aside").append("<textarea id = 'datosSubidos' name='tx'  cols='30' rows='20' disabled>" + this.result +"</textarea>");
             var contenido = this.result.split('\n');
             for(var i = 0; i < contenido.length; i++){
               var linea = contenido[i];
