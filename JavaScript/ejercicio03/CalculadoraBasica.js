@@ -86,7 +86,7 @@ class CalculadoraBasica {
                 if(valor == "-")
                     this.resta();
                 if(valor == "*")
-                    this.multiplicacion;
+                    this.multiplicacion();
                 if(valor == "/")
                     this.division();
                 if(valor == "Enter")
