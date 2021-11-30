@@ -1,14 +1,25 @@
-body { 
-    margin: 0; 
+body {
+    margin: 0;
     padding: 0;
-    background-color: aliceblue; 
-}
-#map { position: absolute; 
-    top: 0; 
-    bottom: 0; 
-    width: 80%; 
+    background-color: rgb(152, 195, 233);
 }
 
-h2{
-    color:rgb(9, 28, 53);
+section{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+}
+
+.marker {
+    background-image: url('chincheta.png');
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
 }

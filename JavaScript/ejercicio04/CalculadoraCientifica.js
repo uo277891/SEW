@@ -38,18 +38,18 @@ class CalculadoraBasica {
         document.getElementById('tan').value = "tan";
     }
 
-    pulsarNumero(numero){        
+    pulsarNumero(numero){    
         this.numero += numero;
         //this.pantalla += "new Number(" + this.numero + ")";
         //this.pantallaUsuario += numero;
-        document.getElementById('expresion').value = this.pantallaUsuario + "" + this.numero;
+        document.getElementById('expresion').value = this.pantallaUsuario + this.numero;
     }
 
     suma(){
         if(this.numero.length > 0){
             var number = eval("new Number(" + this.numero + ")");
             this.pantalla += number;
-            this.pantallaUsuario += this.numero;
+            this.pantallaUsuario += number;
         }
         this.pantalla += "+";
         this.pantallaUsuario += " + ";
@@ -110,8 +110,7 @@ class CalculadoraBasica {
 
     punto(){
         this.numero += ".";
-        this.pantallaUsuario += ".";
-        document.getElementById('expresion').value = this.pantallaUsuario;
+        document.getElementById('expresion').value = this.pantallaUsuario + this.numero;
     }
 
     c(){
@@ -177,7 +176,7 @@ class CalculadoraCientifica extends CalculadoraBasica{
         if(this.numero.length > 0){
             var number = eval(this.numero);
             this.pantalla += "Math.pow(" + number + ",2)";
-            this.pantallaUsuario += this.numero + "^2";
+            this.pantallaUsuario += "^2";
             this.numero = "";
             document.getElementById('expresion').value = this.pantallaUsuario;
         }
@@ -187,7 +186,7 @@ class CalculadoraCientifica extends CalculadoraBasica{
         if(this.numero.length > 0){
             var number = eval(this.numero);
             this.pantalla += number + "**";
-            this.pantallaUsuario += this.numero + "^";
+            this.pantallaUsuario += "^";
             this.numero = "";
             document.getElementById('expresion').value = this.pantallaUsuario;
         }
@@ -296,7 +295,6 @@ class CalculadoraCientifica extends CalculadoraBasica{
             this.numero = "";
             document.getElementById('expresion').value = this.pantallaUsuario;
             condicion = true;
-            //Sin acabar
         }
     }
 
@@ -336,7 +334,6 @@ class CalculadoraCientifica extends CalculadoraBasica{
         if(this.numero.length > 0){
             var number = eval(this.numero);
             this.pantalla += number;
-            this.pantallaUsuario += number;
         }
         this.pantalla += "(";
         this.pantallaUsuario += "(";
@@ -348,7 +345,6 @@ class CalculadoraCientifica extends CalculadoraBasica{
         if(this.numero.length > 0){
             var number = eval(this.numero);
             this.pantalla += number;
-            this.pantallaUsuario += number;
         }
         this.pantalla += ")";
         this.pantallaUsuario += ")";

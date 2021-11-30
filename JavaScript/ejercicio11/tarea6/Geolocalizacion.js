@@ -37,23 +37,17 @@ function initMap(){
 
             infoWindow.setPosition(pos);
             infoWindow.setContent('Aquí está usted');
-            //infoWindow.open(mapaGeoposicionado);
             mapaGeoposicionado.setCenter(centro);
           }, function() {
             handleLocationError(true, infoWindow, mapaGeoposicionado.getCenter());
           });
         } else {
-          // Browser doesn't support Geolocation
           handleLocationError(false, infoWindow, mapaGeoposicionado.getCenter());
         }
     }
 
       function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-        //infoWindow.setPosition(pos);
-        //infoWindow.setContent(browserHasGeolocation ?
-                              //'Error: Ha fallado la geolocalización' :
-                              //'Error: Su navegador no soporta geolocalización');
-        //infoWindow.open(mapaGeoposicionado);
+        //No hace nada.
       }
 
 var miMapa = new Geolocalizacion()

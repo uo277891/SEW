@@ -18,8 +18,6 @@ class Meteo {
                 url: this.url,
                 method: 'GET',
                 success: function(datos){
-                    //$("h5").text((new XMLSerializer()).serializeToString(datos));
-                        //Extracción de los datos contenidos en el XML
                         var foto = $('weather',datos).attr("icon");
                         var ciudad                = $('city',datos).attr("name");
                         var longitud              = $('coord',datos).attr("lon");

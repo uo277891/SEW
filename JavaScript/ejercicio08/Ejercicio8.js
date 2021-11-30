@@ -22,9 +22,7 @@ class Meteo {
                 url: this.url,
                 method: 'GET',
                 success: function(datos){
-                        $("pre").text(JSON.stringify(datos, null, 2)); //muestra el json en un elemento pre
-                    
-                        //Presentación de los datos contenidos en JSON
+                        $("pre").text(JSON.stringify(datos, null, 2)); 
                         var stringDatos = "<img src='https://openweathermap.org/img/w/" + datos.weather[0].icon + ".png'/>"
                             stringDatos += "<ul><li>Ciudad: " + datos.name + "</li>";
                             stringDatos += "<li>País: " + datos.sys.country + "</li>";

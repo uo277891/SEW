@@ -1,0 +1,4 @@
+Hugo Gutiérrez;160;57.30
+Maria Garcia;170;79
+Pablo Martinez;230;300.80
+Paula Rodriguez;158;42.40

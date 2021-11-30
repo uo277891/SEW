@@ -1,0 +1,85 @@
+body {
+	background: #16110f;
+	color: #FFF;
+	font-family: Calibri, Arial, sans-serif;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    grid-template-rows: repeat(2, auto);
+}
+
+body>header{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    color:rgb(173, 177, 231);
+}
+
+body>form{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(6, auto);
+}
+
+body>form>:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding: 0.5em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+body>form>:nth-child(2){
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding: 0.5em;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: rgb(167, 212, 218);
+}
+body>form>input{
+    font-size: 1.5em;
+    padding: 0.3em;
+    margin: 0.5em;
+    border-radius: 0.7em;
+    color:rgb(27, 6, 6);
+    background-color: rgb(178, 235, 200);
+}
+
+body>form>:nth-child(3), body>form>:nth-child(4), body>form>:nth-child(5),
+body>form>:nth-child(6), body>form>:nth-child(7)
+{
+    color:rgb(255, 255, 255);
+    background-color: rgb(66, 76, 87);
+}
+body>form>:nth-child(8){
+    color:rgb(255, 255, 255);
+    background-color: rgb(148, 18, 18);
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+body>form>:nth-child(9){
+    color:rgb(255, 255, 255);
+    background-color: rgb(10, 21, 44);
+}
+
+body>form>:nth-child(12){
+    color:rgb(255, 255, 255);
+    background-color: rgb(6, 17, 34);
+}
+
+body>form>:nth-child(13){
+    color:rgb(255, 255, 255);
+    background-color: rgb(5, 24, 11);
+}

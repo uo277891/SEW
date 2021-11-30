@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE arbol SYSTEM "arbol.dtd">
+
+<arbol>
+    <persona nombre = "Hugo" apellidos = "Gutierrez Tomas">
+		<datos>
+        <fechaNacimiento> 21/10/2001 </fechaNacimiento>
+        <lugarNacimiento> Gijon </lugarNacimiento>
+        <coordenadasNacimiento>
+            <longitud> 8 </longitud>
+            <latitud> 10 </latitud>
+            <altitud> 6 </altitud>
+        </coordenadasNacimiento>
+        <foto> Foto </foto>
+        <video> Video </video>
+        <comentario> Le gusta el deporte </comentario>
+        </datos>
+        <persona nombre = "Maria Eloina" apellidos = "Tomas Diaz">
+            <datos>
+                <fechaNacimiento> 24/02/1971 </fechaNacimiento>
+                <lugarNacimiento> Ponga </lugarNacimiento>
+                <coordenadasNacimiento>
+                    <longitud> 50 </longitud>
+                    <latitud> 5 </latitud>
+                    <altitud> 80 </altitud>
+                </coordenadasNacimiento>
+                <foto> Foto </foto>
+                <video> Video </video>
+                <comentario> Profesión: Auxiliar de Clínica </comentario>
+            </datos>
+            <persona nombre = "Esther" apellidos = "Diaz Iglesias">
+                <datos>
+                    <fechaNacimiento> 20/08/1945 </fechaNacimiento>
+                    <lugarNacimiento> Ponga </lugarNacimiento>
+                    <coordenadasNacimiento>
+                        <longitud> 50 </longitud>
+                        <latitud> 5 </latitud>
+                        <altitud> 80 </altitud>
+                    </coordenadasNacimiento>
+                    <foto> Foto </foto>
+                    <video> Video </video>
+                    <comentario> Le encanta estar con sus nietos </comentario>
+                </datos>
+				<persona nombre = "Maruja" apellidos = "Diaz Iglesias">
+					<datos>
+						<fechaNacimiento> ?/?/1923 </fechaNacimiento>
+						<lugarNacimiento> Ponga </lugarNacimiento>
+						<coordenadasNacimiento>
+							<longitud> 50 </longitud>
+							<latitud> 5 </latitud>
+							<altitud> 80 </altitud>
+						</coordenadasNacimiento>
+						<fechaFallecimiento> 24/12/1945 </fechaFallecimiento>
+						<lugarFallecimiento> Oviedo </lugarFallecimiento>
+						<coordenadasFallecimiento>
+							<longitud> 8 </longitud>
+							<latitud> 10 </latitud>
+							<altitud> 6 </altitud>
+						</coordenadasFallecimiento>
+						<foto> Foto </foto>
+						<video> Video </video>
+						<comentario> Le encanta estar con sus nietos </comentario>
+					</datos>				
+				</persona>
+				<persona nombre = "Desconocido" apellidos = "? ?">
+					<datos>
+						<fechaNacimiento> ?/?/? </fechaNacimiento>
+						<lugarNacimiento> Ponga </lugarNacimiento>
+						<coordenadasNacimiento>
+							<longitud> 50 </longitud>
+							<latitud> 5 </latitud>
+							<altitud> 80 </altitud>
+						</coordenadasNacimiento>
+						<fechaFallecimiento> ?/?/? </fechaFallecimiento>
+						<lugarFallecimiento> ? </lugarFallecimiento>
+						<coordenadasFallecimiento>
+							<longitud> ? </longitud>
+							<latitud> ? </latitud>
+							<altitud> ? </altitud>
+						</coordenadasFallecimiento>
+						<foto> ? </foto>
+						<video> ? </video>
+						<comentario> ? </comentario>
+					</datos>
+				</persona>	
+            </persona>
+            <persona nombre = "Saturnino" apellidos = "Tomas Domingo">
+                <datos>
+                    <fechaNacimiento> 01/11/1939 </fechaNacimiento>
+                    <lugarNacimiento> Ponga </lugarNacimiento>
+                    <coordenadasNacimiento>
+                        <longitud> 8 </longitud>
+                        <latitud> 10 </latitud>
+                        <altitud> 6 </altitud>
+                    </coordenadasNacimiento>
+                    <fechaFallecimiento> 12/04/1995 </fechaFallecimiento>
+                    <lugarFallecimiento> Gijon </lugarFallecimiento>
+                    <coordenadasFallecimiento>
+                        <longitud> 8 </longitud>
+                        <latitud> 10 </latitud>
+                        <altitud> 6 </altitud>
+                    </coordenadasFallecimiento>
+                    <foto> Foto </foto>
+                    <video> Video </video>
+                    <comentario> Profesion: Peon de construccion </comentario>
+                </datos>
+				<persona nombre = "Catalina" apellidos = "Domingo De la mata">
+					<datos>
+						<fechaNacimiento> ?/?/? </fechaNacimiento>
+						<lugarNacimiento> Ponga </lugarNacimiento>
+						<coordenadasNacimiento>
+							<longitud> 50 </longitud>
+							<latitud> 5 </latitud>
+							<altitud> 80 </altitud>
+						</coordenadasNacimiento>
+						<fechaFallecimiento> ?/?/? </fechaFallecimiento>
+						<lugarFallecimiento> Ponga </lugarFallecimiento>
+						<coordenadasFallecimiento>
+							<longitud> 8 </longitud>
+							<latitud> 10 </latitud>
+							<altitud> 6 </altitud>
+						</coordenadasFallecimiento>
+						<foto> ? </foto>
+						<video> ? </video>
+						<comentario> ? </comentario>
+					</datos>				
+				</persona>
+				<persona nombre = "Desconocido" apellidos = "? ?">
+					<datos>
+						<fechaNacimiento> ?/?/? </fechaNacimiento>
+						<lugarNacimiento> ? </lugarNacimiento>
+						<coordenadasNacimiento>
+							<longitud> ? </longitud>
+							<latitud> ? </latitud>
+							<altitud> ? </altitud>
+						</coordenadasNacimiento>
+						<fechaFallecimiento> ?/?/? </fechaFallecimiento>
+						<lugarFallecimiento> ? </lugarFallecimiento>
+						<coordenadasFallecimiento>
+							<longitud> ? </longitud>
+							<latitud> ? </latitud>
+							<altitud> ? </altitud>
+						</coordenadasFallecimiento>
+						<foto> ? </foto>
+						<video> ? </video>
+						<comentario> ? </comentario>
+					</datos>				
+				</persona>
+            </persona>   
+        </persona>
+        <persona nombre = "Jose Joaquin" apellidos = "Gutierrez Gonzalez">
+            <datos>
+                <fechaNacimiento> 15/09/1972 </fechaNacimiento>
+                <lugarNacimiento> Gijon </lugarNacimiento>
+                <coordenadasNacimiento>
+                    <longitud> 8 </longitud>
+                    <latitud> 10 </latitud>
+                    <altitud> 6 </altitud>
+                </coordenadasNacimiento>
+                <foto> Foto </foto>
+                <video> Video </video>
+                <comentario> Profesión: Jefe Taller </comentario>
+            </datos>
+            <persona nombre = "Lucinia" apellidos = "Gonzalez Gonzalez">
+                <datos>
+                    <fechaNacimiento> 11/09/1949 </fechaNacimiento>
+                    <lugarNacimiento> México </lugarNacimiento>
+                    <coordenadasNacimiento>
+                        <longitud> 10 </longitud>
+                        <latitud> 86 </latitud>
+                        <altitud> 7 </altitud>
+                    </coordenadasNacimiento>
+                    <fechaFallecimiento> 16/12/2019 </fechaFallecimiento>
+                    <lugarFallecimiento> Gijon </lugarFallecimiento>
+                    <coordenadasFallecimiento>
+                        <longitud> 8 </longitud>
+                        <latitud> 10 </latitud>
+                        <altitud> 6 </altitud>
+                    </coordenadasFallecimiento>
+                    <foto> Foto </foto>
+                    <video> Video </video>
+                    <comentario> Muy buena persona </comentario>
+                </datos>
+				<persona nombre = "Lucinia" apellidos = "Gonzalez Gonzalez">
+					<datos>
+						<fechaNacimiento> 23/09/1924 </fechaNacimiento>
+						<lugarNacimiento> Santa Barbara </lugarNacimiento>
+						<coordenadasNacimiento>
+							<longitud> 4 </longitud>
+							<latitud> 8 </latitud>
+							<altitud> 46 </altitud>
+						</coordenadasNacimiento>
+						<fechaFallecimiento> 07/08/2014 </fechaFallecimiento>
+						<lugarFallecimiento> Gijon </lugarFallecimiento>
+						<coordenadasFallecimiento>
+							<longitud> ? </longitud>
+							<latitud> ? </latitud>
+							<altitud> ? </altitud>
+						</coordenadasFallecimiento>
+						<foto> Foto </foto>
+						<video> Video </video>
+						<comentario> ? </comentario>
+					</datos>				
+				</persona>
+				<persona nombre = "German" apellidos = "Gonzalez Gonzalez">
+					<datos>
+						<fechaNacimiento> 16/10/1894 </fechaNacimiento>
+						<lugarNacimiento> Santa Barbara </lugarNacimiento>
+						<coordenadasNacimiento>
+							<longitud> 4 </longitud>
+							<latitud> 8 </latitud>
+							<altitud> 46 </altitud>
+						</coordenadasNacimiento>
+						<fechaFallecimiento> 05/12/1984 </fechaFallecimiento>
+						<lugarFallecimiento> Gijon </lugarFallecimiento>
+						<coordenadasFallecimiento>
+							<longitud> ? </longitud>
+							<latitud> ? </latitud>
+							<altitud> ? </altitud>
+						</coordenadasFallecimiento>
+						<foto> Foto </foto>
+						<video> Video </video>
+						<comentario> Profesion: Empresario </comentario>
+					</datos>				
+				</persona>
+            </persona>
+            <persona nombre = "Victor" apellidos = "Gutierrez Capellan">
+                <datos>
+                    <fechaNacimiento> 11/05/1949 </fechaNacimiento>
+                    <lugarNacimiento> Gijon </lugarNacimiento>
+                    <coordenadasNacimiento>
+                        <longitud> 8 </longitud>
+                        <latitud> 10 </latitud>
+                        <altitud> 6 </altitud>
+                    </coordenadasNacimiento>
+                    <fechaFallecimiento> 08/07/2003 </fechaFallecimiento>
+                    <lugarFallecimiento> Gijon </lugarFallecimiento>
+                    <coordenadasFallecimiento>
+                        <longitud> 8 </longitud>
+                        <latitud> 10 </latitud>
+                        <altitud> 6 </altitud>
+                    </coordenadasFallecimiento>
+                    <foto> Foto </foto>
+                    <video> Video </video>
+                    <comentario> Le gustaba el futbol </comentario>
+                </datos>
+				<persona nombre = "Joaquina" apellidos = "Capellan Del Valle">
+					<datos>
+						<fechaNacimiento> 16/10/1918 </fechaNacimiento>
+						<lugarNacimiento> Ribadesella </lugarNacimiento>
+						<coordenadasNacimiento>
+							<longitud> 4 </longitud>
+							<latitud> 8 </latitud>
+							<altitud> 46 </altitud>
+						</coordenadasNacimiento>
+						<fechaFallecimiento> 06/09/2002 </fechaFallecimiento>
+						<lugarFallecimiento> Gijon </lugarFallecimiento>
+						<coordenadasFallecimiento>
+							<longitud> ? </longitud>
+							<latitud> ? </latitud>
+							<altitud> ? </altitud>
+						</coordenadasFallecimiento>
+						<foto> Foto </foto>
+						<video> Video </video>
+						<comentario> Profesion: Hostelera </comentario>
+					</datos>				
+				</persona>
+				<persona nombre = "Jose" apellidos = "Gutierrez De la Villa">
+					<datos>
+						<fechaNacimiento> 25/12/1920 </fechaNacimiento>
+						<lugarNacimiento> Ribadesella </lugarNacimiento>
+						<coordenadasNacimiento>
+							<longitud> 4 </longitud>
+							<latitud> 8 </latitud>
+							<altitud> 46 </altitud>
+						</coordenadasNacimiento>
+						<fechaFallecimiento> 31/12/1975 </fechaFallecimiento>
+						<lugarFallecimiento> Ribadesella </lugarFallecimiento>
+						<coordenadasFallecimiento>
+							<longitud> ? </longitud>
+							<latitud> ? </latitud>
+							<altitud> ? </altitud>
+						</coordenadasFallecimiento>
+						<foto> Foto </foto>
+						<video> Video </video>
+						<comentario> Profesion: Agricultor </comentario>
+					</datos>				
+				</persona>  
+			</persona>
+		</persona>
+	</persona>
+</arbol>

@@ -24,7 +24,6 @@ function initMap(){
             handleLocationError(true, infoWindow, mapaGeoposicionado.getCenter());
           });
         } else {
-          // Browser doesn't support Geolocation
           handleLocationError(false, infoWindow, mapaGeoposicionado.getCenter());
         }
       }
