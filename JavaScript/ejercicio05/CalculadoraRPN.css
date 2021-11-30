@@ -6,7 +6,14 @@ body {
     height: auto;
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(2, auto);
+    grid-template-rows: repeat(5, auto);
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
 }
 
 body>header{
