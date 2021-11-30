@@ -4,12 +4,12 @@
   <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
-    <meta name="keywords" content="Ejercicio 5" />
+    <meta name="keywords" content="Ejercicio 6" />
     <meta name="author" content= "Hugo Gutierrez Tomas" />
     <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
-    <script src="CalculadoraFecha.js"></script>
     <title>Calculadora de Fechas</title>
     <link rel="stylesheet" type="text/css" href="CalculadoraFecha.css" />
+    <script src="CalculadoraFecha.js"></script>
   </head>
 
   <body>
@@ -21,16 +21,17 @@
       <form>
         <input type="submit" value = "---------------------------------" disabled>
         <textarea id = "elementosPila" name="tx" cols="30" rows="10" disabled = true></textarea>
-        <input type="button" value="Domingo Resurreccion" onclick= "calculadora.domingoResurreccion()">
-        <input type="button" value="Martes de Carnaval" onclick="calculadora.martesDeCarnaval()">
-        <input type="button" value="Jueves de Ascensión" onclick="calculadora.juevesAscension()">
-        <input type="button" value="Pentecostés" onclick="calculadora.pentecostes()">
-        <input type="button" value="Martes de Campo" onclick="calculadora.martesDeCampo()">
-        <input type="button" value="Suma Días" onclick="calculadora.sumarDias()">
-        <input type="button" value="Restar Días" onclick="calculadora.restarDias()">
+        <input type="button" value="Dom. Res." onclick= "calculadora.domingoResurreccion()">
+        <input type="button" value="Mar. Car." onclick="calculadora.martesDeCarnaval()">
+        <input type="button" value="Jue. Asc." onclick="calculadora.juevesAscension()">
+        <input type="button" value="Pentecos." onclick="calculadora.pentecostes()">
+        <input type="button" value="Mar. Cam." onclick="calculadora.martesDeCampo()">
         <input type="button" value="Enter" onclick="calculadora.enter()">
+        <input type="button" value="Reset" onclick="calculadora.reset()">
         <input type="button" value="0" onclick="calculadora.meterValor(0)">
         <input type="button" value="1" onclick="calculadora.meterValor(1)">
+        <input type="button" value="Sum Días" onclick="calculadora.sumarDias()">
+        <input type="button" value="Res Días" onclick="calculadora.restarDias()">
         <input type="button" value="2" onclick="calculadora.meterValor(2)">
         <input type="button" value="3" onclick="calculadora.meterValor(3)">
         <input type="button" value="4" onclick="calculadora.meterValor(4)">
@@ -39,7 +40,6 @@
         <input type="button" value="7" onclick="calculadora.meterValor(7)">
         <input type="button" value="8" onclick="calculadora.meterValor(8)">
         <input type="button" value="9" onclick="calculadora.meterValor(9)">
-        <input type="button" value="reset" onclick="calculadora.reset()">
       </form>
   </body>
 </html>
