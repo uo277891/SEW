@@ -1,10 +1,11 @@
 "use strict";
 class Geolocalizacion {
+       
     constructor (){
         navigator.geolocation.getCurrentPosition(this.getPosicion.bind(this), this.mostrarError.bind(this));
     }
     getPosicion(posicion){
-        this.mensaje = "Todo ha ido perfecto, geolocalización disponible :"
+        this.mensaje = "Todo ha ido perfecto, geolocalización disponible :";
         this.longitud         = posicion.coords.longitude; 
         this.latitud          = posicion.coords.latitude;  
         this.precision        = posicion.coords.accuracy;
@@ -52,3 +53,5 @@ class Geolocalizacion {
         ubicacion.innerHTML = datos;
     }
 }
+
+var geo = new Geolocalizacion();

@@ -81,3 +81,5 @@ class Meteo {
         
     }
 }
+
+var meteo = new Meteo();

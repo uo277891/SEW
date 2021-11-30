@@ -34,3 +34,5 @@ class Geolocalizacion {
         ubicacion.innerHTML = datos;
     }
 }
+
+var geo = new Geolocalizacion();

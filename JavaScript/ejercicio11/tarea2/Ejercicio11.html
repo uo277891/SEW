@@ -9,14 +9,13 @@
       <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
       <title>Ejercicio 11, tarea 2</title>
 	  <link rel="stylesheet" type="text/css" href="Ejercicio11.css" />
+    <script src="Geolocalizacion.js"></script>
   </head>
 
   <body>
-    <script src="Geolocalizacion.js"></script>
-    <script>var geo = new Geolocalizacion();</script>
     <h1>Información de la Geolocalizacion</h1>
     <main id = 'main'>
-      <p id = "parrafo">Pulse el botón para obtener información</p>
+      <p>Pulse el botón para obtener información</p>
       <input type="button" value="Obtener información de ubicación" onclick= "geo.visualizarDatos('main')">
     </main>
   </body>

@@ -16,8 +16,8 @@
     <header>
         <h1>Calculadora Fecha</h1>
         <p>Hugo Gutiérrez Tomás</p>
+        <label for="elementosPila">Realizada con JS</label>
     </header>
-    <label for="elementosPila">Realizada con JS</label>
       <form>
         <input type="submit" value = "---------------------------------" disabled>
         <textarea id = "elementosPila" name="tx" cols="30" rows="10" disabled = true></textarea>
@@ -26,6 +26,8 @@
         <input type="button" value="Jueves de Ascensión" onclick="calculadora.juevesAscension()">
         <input type="button" value="Pentecostés" onclick="calculadora.pentecostes()">
         <input type="button" value="Martes de Campo" onclick="calculadora.martesDeCampo()">
+        <input type="button" value="Suma Días" onclick="calculadora.sumarDias()">
+        <input type="button" value="Restar Días" onclick="calculadora.restarDias()">
         <input type="button" value="Enter" onclick="calculadora.enter()">
         <input type="button" value="0" onclick="calculadora.meterValor(0)">
         <input type="button" value="1" onclick="calculadora.meterValor(1)">

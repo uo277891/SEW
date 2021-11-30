@@ -5,8 +5,8 @@ body {
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(1, auto);
 }
 
 p{
@@ -17,18 +17,8 @@ h2{
     color:white;
 }
 
-body>header{
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 1;
-}
-
 body>form{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 2;
+    
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(8, auto);

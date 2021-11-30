@@ -55,3 +55,5 @@ function initMap(){
                               //'Error: Su navegador no soporta geolocalización');
         //infoWindow.open(mapaGeoposicionado);
       }
+
+var miMapa = new Geolocalizacion()

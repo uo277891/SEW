@@ -9,15 +9,12 @@ body {
     grid-template-rows: repeat(2, auto);
 }
 
-header{
-	color:rgb(173, 177, 231);
-}
-
 body>header{
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;
+    color:rgb(173, 177, 231);
 }
 
 body>form{

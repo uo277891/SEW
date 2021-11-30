@@ -24,3 +24,5 @@ class Archivos{
       $("section").append("<p>Contenido de los archivos con formato json, xml o txt: </p>");
   }
 }
+
+var obj = new Archivos();
