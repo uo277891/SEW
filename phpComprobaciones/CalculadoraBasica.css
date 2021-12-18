@@ -1,0 +1,78 @@
+/*Especificidad: 001*/
+body {
+	background: #E8CBC0;
+	color: rgb(0, 0, 0);
+	font-family: Calibri, Arial, sans-serif;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(1, auto);
+}
+
+/*Especificidad: 001*/
+p{
+    font-size: 1.5em;
+}
+
+/*Especificidad: 001*/
+h2{
+    color:white;
+}
+
+/*Especificidad: 002*/
+body>form{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(8, auto);
+    background-color: rgb(19, 14, 14);
+    border-radius: 2em;
+}
+
+/*Especificidad: 012*/
+body>form>:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding: 0.5em;
+    font-size: 1.5em;
+    text-align: center;
+}
+/*Especificidad: 012*/
+body>form>:nth-child(2){
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding: 0.5em;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: rgb(167, 212, 218);
+}
+/*Especificidad: 003*/
+body>form>input{
+    font-size: 1.5em;
+    padding: 0.3em;
+    margin: 0.5em;
+    border-radius: 1.2em;
+    color:rgb(5, 37, 85);
+    background-color: rgb(196, 196, 196);
+}
+
+/*Especificidad: 012*/
+body>form>:nth-child(3), body>form>:nth-child(4), body>form>:nth-child(5){
+    color:rgb(255, 255, 255);
+    background-color: rgb(66, 76, 87);
+}
+
+/*Especificidad: 012*/
+body>form>:nth-child(6), body>form>:nth-child(10), body>form>:nth-child(14), body>form>:nth-child(18){
+    color:rgb(255, 255, 255);
+    background-color: rgb(15, 66, 161);
+}
+
+/*Especificidad: 012*/
+body>form>:nth-child(22){
+    background-color: rgb(243, 21, 76);
+}

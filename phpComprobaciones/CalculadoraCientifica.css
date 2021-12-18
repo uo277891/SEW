@@ -1,0 +1,84 @@
+/*Especificidad: 001*/
+body {
+	background: #E8CBC0;
+	color: rgb(0, 0, 0);
+	font-family: Calibri, Arial, sans-serif;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+}
+/*Especificidad: 002*/
+body>header{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+/*Especificidad: 001*/
+label{
+    font-size: 1.6em;
+}
+
+/*Especificidad: 002*/
+body>form{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(9, auto);
+    background-color: rgb(95, 94, 94);
+}
+/*Especificidad: 012*/
+body>form>:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding: 0.5em;
+    font-size: 2em;
+    text-align: center;
+    background-color: rgb(194, 198, 199);
+}
+/*Especificidad: 003*/
+body>form>input{
+    background-color: rgb(196, 198, 201);
+    font-size: 1.5em;
+    padding: 0.3em;
+    margin: 0.07em;
+}
+/*Especificidad: 012*/
+body>form>:nth-child(3), body>form>:nth-child(4), body>form>:nth-child(5){
+    background-color: rgb(196, 198, 201);
+}
+/*Especificidad: 012*/
+body>form>:nth-child(2), body>form>:nth-child(6){
+    background-color: rgb(196, 198, 201);
+}
+/*Especificidad: 012*/
+body>form>:nth-child(19), body>form>:nth-child(20){
+    background-color: rgb(196, 198, 201);
+}
+/*Especificidad: 012*/
+body>form>:nth-child(21), body>form>:nth-child(26), body>form>:nth-child(31), body>form>:nth-child(36){
+    background-color: rgb(196, 198, 201);
+}
+/*Especificidad: 012*/
+body>form>:nth-child(23), body>form>:nth-child(24), body>form>:nth-child(25),
+body>form>:nth-child(28), body>form>:nth-child(29), body>form>:nth-child(30),
+body>form>:nth-child(33), body>form>:nth-child(34), body>form>:nth-child(35),
+body>form>:nth-child(39), body>form>:nth-child(40){
+    background-color: rgb(255, 255, 255);
+}
+/*Especificidad: 012*/
+body>form>:nth-child(41){
+    background-color: rgb(196, 198, 201);
+}
+/*Especificidad: 012*/
+body>form>:nth-child(42){
+    grid-column-start: 1;
+    grid-column-end: 6;
+}

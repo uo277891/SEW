@@ -1,0 +1,35 @@
+/*Especificidad: 001*/
+body{
+    background-color: rgb(177, 195, 235);
+    font-family: Calibri, Arial, sans-serif;
+    width: 100%;
+    height: auto;
+    display: grid;
+}
+
+/*Especificidad: 002*/
+body>form{
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(2, auto);
+}
+
+/*Especificidad: 012*/
+body>form>:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding: 0.5em;
+    font-size: 2em;
+    text-align: center;
+    background-color: rgb(194, 198, 199);
+}
+
+/*Especificidad: 012*/
+body>form>:nth-child(2){
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
